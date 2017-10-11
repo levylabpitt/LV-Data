@@ -1,0 +1,494 @@
+#LyX 1.6.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{hyperref}
+\end_preamble
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman ae
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+How to Save LabVIEW Data to Igor Text File Format
+\end_layout
+
+\begin_layout Author
+Patrick Irvin
+\end_layout
+
+\begin_layout Subsection*
+The problem of saving data with LabVIEW
+\end_layout
+
+\begin_layout Standard
+The easiest method to save data in LabVIEW is to use their built-in data
+ logging (
+\family typewriter
+\size small
+Operate 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Log at Completion
+\family default
+\size default
+ and 
+\family typewriter
+\size small
+Operate 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Data Logging 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Log
+\family default
+\size default
+).
+ This logs to a binary data file whatever is shown on the front panel.
+ This is convenient because not only do your graphs and other data get saved,
+ but all of your settings and controls as well.
+ However, there is a flip side to this convenience.
+ The log file is an unreadable binary file that requires an a priori knowledge
+ of what was on the front panel to begin with.
+ If you lose the logging VI, you will have a nearly zero chance of recovering
+ your data.
+ A second problem (that has seemed to occur more frequently as the LabVIEW
+ version number increases (8, 8.5, etc.)) is the log file becomes corrupted
+ somehow and is then unretrievable by the logging VI.
+ This seams to occur when you read a log file interactively in the block
+ diagram and then try to read the file on the front panel.
+ While not a total disaster (since your data is still accessible from the
+ block diagram) it is inconvenient.
+\end_layout
+
+\begin_layout Subsection*
+Solution: use a text-based format
+\end_layout
+
+\begin_layout Standard
+My solution to these data logging issues is to store my data in an Igor
+ Text File (ITX).
+ This is nothing more than a simple text file that is readable by humans
+ in their favorite text editor (Notepad, Notepad++, Emacs, etc.) with some
+ additional commands to make the file convenient to use with Igor.
+ The beauty of this system is ease of use with a data analysis program (Igor)
+ and the fact that the data is stored in a recoverable format.
+ Furthermore, we can insert some scripts into the file to have Igor automaticall
+y make a plot, format the plot, or even do some analysis.
+\end_layout
+
+\begin_layout Standard
+The important features of the ITX format are shown below.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+IGOR
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+the itx file always starts with 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+\size small
+IGOR
+\family default
+\size default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+X// Date: 11/21/2008 9:21 AM
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\family typewriter
+\size small
+X// 
+\family default
+\size default
+tells Igor to ignore this line
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+X// sample F, T=10K
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+this could be some comments about your experiment
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+WAVES/D/N=(5) 'x_SampleF.0KRx' 
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+Some info about the wave
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\family typewriter
+\size small
+(5) 
+\family default
+\size default
+- number of elements
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\family typewriter
+\size small
+'x_SampleF.0KRx'
+\family default
+\size default
+ - the name of the wave
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+BEGIN
+\family default
+\size default
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+start of wave
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+-198.487800E-12 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+-195.372600E-12 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+-192.168900E-12 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+-188.894400E-12 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+-185.726100E-12
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+END
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+end of wave
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size small
+X Display 'y_SampleF.0KRx' vs 'x_SampleF.0KRx'
+\family default
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\family typewriter
+\size small
+X
+\family default
+\size default
+ tells Igor to do something
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+in this case it means 
+\begin_inset Quotes eld
+\end_inset
+
+make a plot of 'y_...' vs 'x_...'
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Sounds great! How do I get started?
+\end_layout
+
+\begin_layout Standard
+I written a suite of VIs that cover all the data-saving events I can think
+ of.
+ For example: 1D array, multiple 1D arrays, 2D array, XY graphs.
+ In addition, I have written two 
+\begin_inset Quotes eld
+\end_inset
+
+quick use
+\begin_inset Quotes erd
+\end_inset
+
+ VIs.
+ One saves multiple XY graphs and automatically generates graphs in Igor.
+ The other saves a 2D array and a 1D array to represent each of the axes.
+ This also automatically generates a plot in Igor.
+ I can emphasize enough how useful it is to have these graphics generated
+ automatically when you open the itx file.
+ If nothing else, it is nice to see immediately what data set you're looking
+ at.
+\end_layout
+
+\begin_layout Standard
+Now, where can we find these files? what are all of these files? and how
+ do I use them? You'll find the VI in 
+\family typewriter
+\size small
+P:
+\backslash
+comm
+\backslash
+Labview
+\backslash
+share
+\backslash
+IGOR
+\backslash
+LVtoITX
+\family default
+\size default
+
+\backslash
+.
+ The top-level files are located in this directory.
+ The two 
+\begin_inset Quotes eld
+\end_inset
+
+super-top-level
+\begin_inset Quotes erd
+\end_inset
+
+ VIs are also located this directory and are called, respectively, 
+\family typewriter
+\size small
+LV to ITX XY AutoPlot.vi
+\family default
+\size default
+ and 
+\family typewriter
+\size small
+LV to ITX 2D AutoPlot.vi
+\family default
+\size default
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename LVITX_paths.png
+	width 6in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Watch this incredibly interesting video: 
+\family typewriter
+\size footnotesize
+P:
+\backslash
+comm
+\backslash
+Labview
+\backslash
+share
+\backslash
+IGOR
+\backslash
+LVtoITX
+\backslash
+docs
+\backslash
+how2 LabVIEW data Igor Text File ITX.avi.
+\end_layout
+
+\end_body
+\end_document
