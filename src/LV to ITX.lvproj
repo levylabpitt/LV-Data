@@ -10,54 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="HELP" Type="Folder">
-			<Item Name="ALL.vi" Type="VI" URL="../HELP/ALL.vi"/>
-			<Item Name="DAT Example.vi" Type="VI" URL="../HELP/DAT Example.vi"/>
-			<Item Name="ITX Example.vi" Type="VI" URL="../HELP/ITX Example.vi"/>
-			<Item Name="ITX2 Example.vi" Type="VI" URL="../HELP/ITX2 Example.vi"/>
-		</Item>
-		<Item Name="Main" Type="Folder">
-			<Item Name="DAT to LV.vi" Type="VI" URL="../Main/DAT to LV.vi"/>
-			<Item Name="ITX to LV 2.1 1D.vi" Type="VI" URL="../Main/ITX to LV 2.1 1D.vi"/>
-			<Item Name="ITX to LV 2.1.vi" Type="VI" URL="../Main/ITX to LV 2.1.vi"/>
-			<Item Name="LV to ITX 2.2 1D multi.vi" Type="VI" URL="../Main/LV to ITX 2.2 1D multi.vi"/>
-			<Item Name="LV to ITX 2.2 1D.vi" Type="VI" URL="../Main/LV to ITX 2.2 1D.vi"/>
-			<Item Name="LV to ITX 2.2 2D w X&amp;Y.vi" Type="VI" URL="../Main/LV to ITX 2.2 2D w X&amp;Y.vi"/>
-			<Item Name="LV to ITX 2.2 2D.vi" Type="VI" URL="../Main/LV to ITX 2.2 2D.vi"/>
-			<Item Name="LV to ITX 2.2 ITX2.vi" Type="VI" URL="../Main/LV to ITX 2.2 ITX2.vi"/>
-			<Item Name="LV to ITX 2.2 XY.vi" Type="VI" URL="../Main/LV to ITX 2.2 XY.vi"/>
-			<Item Name="LV to ITX R+coord.vi" Type="VI" URL="../Main/LV to ITX R+coord.vi"/>
-		</Item>
-		<Item Name="util" Type="Folder">
-			<Item Name="LV to ITX XY AutoPlot.vi" Type="VI" URL="../util/LV to ITX XY AutoPlot.vi"/>
-			<Item Name="LVITX 2D Commands.vi" Type="VI" URL="../util/LVITX 2D Commands.vi"/>
-			<Item Name="LVITX 2D X&amp;Y Commands.vi" Type="VI" URL="../util/LVITX 2D X&amp;Y Commands.vi"/>
-			<Item Name="LVITX AddLetter.vi" Type="VI" URL="../util/LVITX AddLetter.vi"/>
-			<Item Name="LVITX append letter to filename.vi" Type="VI" URL="../util/LVITX append letter to filename.vi"/>
-			<Item Name="LVITX Format 1D.vi" Type="VI" URL="../util/LVITX Format 1D.vi"/>
-			<Item Name="LVITX Format 2D.vi" Type="VI" URL="../util/LVITX Format 2D.vi"/>
-			<Item Name="LVITX Format Cmds.vi" Type="VI" URL="../util/LVITX Format Cmds.vi"/>
-			<Item Name="LVITX Format Notes.vi" Type="VI" URL="../util/LVITX Format Notes.vi"/>
-			<Item Name="LVITX Format Path&amp;Filename.vi" Type="VI" URL="../util/LVITX Format Path&amp;Filename.vi"/>
-			<Item Name="LVITX Format string 1D.vi" Type="VI" URL="../util/LVITX Format string 1D.vi"/>
-			<Item Name="LVITX Generate Folder Index.vi" Type="VI" URL="../util/LVITX Generate Folder Index.vi"/>
-			<Item Name="LVITX IBW aperture Commands.vi" Type="VI" URL="../util/LVITX IBW aperture Commands.vi"/>
-			<Item Name="LVITX ITX2 Plot Commands.vi" Type="VI" URL="../util/LVITX ITX2 Plot Commands.vi"/>
-			<Item Name="LVITX OffsetMult Array.vi" Type="VI" URL="../util/LVITX OffsetMult Array.vi"/>
-			<Item Name="LVITX R+coord Commands.vi" Type="VI" URL="../util/LVITX R+coord Commands.vi"/>
-			<Item Name="LVITX Read Folder Index.vi" Type="VI" URL="../util/LVITX Read Folder Index.vi"/>
-			<Item Name="LVITX Remove Illegal Characters from Wavename.vi" Type="VI" URL="../util/LVITX Remove Illegal Characters from Wavename.vi"/>
-			<Item Name="LVITX Rename Illegal Characters to Wavename.vi" Type="VI" URL="../util/LVITX Rename Illegal Characters to Wavename.vi"/>
-			<Item Name="LVITX XY from 2D Commands.vi" Type="VI" URL="../util/LVITX XY from 2D Commands.vi"/>
-			<Item Name="LVITX XY Plot Commands W2D.vi" Type="VI" URL="../util/LVITX XY Plot Commands W2D.vi"/>
-			<Item Name="LVITX XY Plot Commands.vi" Type="VI" URL="../util/LVITX XY Plot Commands.vi"/>
-		</Item>
-		<Item Name="LV to DAT.vi" Type="VI" URL="../LV to DAT.vi"/>
-		<Item Name="LV to ITX  Graph.vi" Type="VI" URL="../LV to ITX  Graph.vi"/>
-		<Item Name="LV to ITX  Retrieve Equation.vi" Type="VI" URL="../LV to ITX  Retrieve Equation.vi"/>
-		<Item Name="LV to ITX  Retrieve.vi" Type="VI" URL="../LV to ITX  Retrieve.vi"/>
-		<Item Name="LV to ITX 2D AutoPlot.vi" Type="VI" URL="../LV to ITX 2D AutoPlot.vi"/>
-		<Item Name="LV to ITX AutoPlot.vi" Type="VI" URL="../LV to ITX AutoPlot.vi"/>
+		<Item Name="LVtoITX.lvclass" Type="LVClass" URL="../LVtoITX.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DirExists-NoThenCreate.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/DirExists-NoThenCreate.vi"/>
