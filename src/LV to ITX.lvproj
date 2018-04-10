@@ -11,6 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LVtoITX.lvclass" Type="LVClass" URL="../LVtoITX.lvclass"/>
+		<Item Name="Retrieve Data Type.ctl" Type="VI" URL="../Typedefs/Retrieve Data Type.ctl"/>
+		<Item Name="Retrieve Formula Type.ctl" Type="VI" URL="../Typedefs/Retrieve Formula Type.ctl"/>
+		<Item Name="Retrieve Index.ctl" Type="VI" URL="../Typedefs/Retrieve Index.ctl"/>
+		<Item Name="Retrieve N Results.ctl" Type="VI" URL="../Typedefs/Retrieve N Results.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DirExists-NoThenCreate.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/DirExists-NoThenCreate.vi"/>
