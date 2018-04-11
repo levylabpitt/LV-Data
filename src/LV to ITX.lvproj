@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LVtoITX.lvclass" Type="LVClass" URL="../LVtoITX.lvclass"/>
+		<Item Name="LVtoITX.vipb" Type="Document" URL="../../LVtoITX.vipb"/>
+		<Item Name="LVtoITX.vipc" Type="Document" URL="../../LVtoITX.vipc"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DirExists-NoThenCreate.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/DirExists-NoThenCreate.vi"/>
