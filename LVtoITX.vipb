@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-04-10 17:38:43" Creator="Patrick Irvin" Comments="" ID="83267a5d36eb9767126feee1ba21924c">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-04-11 10:53:51" Creator="Patrick Irvin" Comments="" ID="cf1ae396dbc659cb509c0cdb396d7aa2">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.0.13</Library_Version>
+    <Library_Version>2.6.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -45,10 +45,7 @@
       <Release_Notes>- Organize files in lvproject and lvclass
 - LV to ITX Graph.vi can be called programmatically
 - LV to ITX Retrieve (Equation).vi can both call dat files
-- String-based equations now working in  LV to ITX Retrieve Equation.vi
-- Save files VIs warn user if wavenames will be longer than 32 characters
-
-</Release_Notes>
+- String-based equations now working in  LV to ITX Retrieve Equation.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -338,7 +335,7 @@
         <Path>src\util</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B9141E675CF7A441B768428A643B0BA</GUID>
+      <GUID>B9925A6DF08D04367FA749F3D85D473D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -415,7 +412,7 @@
         <Path>src\HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D5955343774AEF54B0BDAA02BC537DE</GUID>
+      <GUID>D885146AEEC8A0A05BD83A3FB76D08B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +573,7 @@
         <Path>src\Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7EF05CE6FE74FFFA0DD1520816B33E1</GUID>
+      <GUID>E7CC521643FC88D69BD33011E9FFAF63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -933,7 +930,7 @@
         <Path>src\util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>084AC799F7922C6380C630002618F4CE</GUID>
+      <GUID>D9AA72CA867C79FB7CC1A0165B25849B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -968,7 +965,7 @@
         <Path>src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CE7DF2688609B142499B9DAAC1EEE26</GUID>
+      <GUID>D676B97089227BD5D18C8620BB1267B6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1045,7 +1042,7 @@
         <Path>src\Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A40BE14C2448A09FC06F4B9F36535126</GUID>
+      <GUID>DB3F8DC1051F1FD1C58356BB9213E741</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
