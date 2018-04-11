@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-04-11 10:53:51" Creator="Patrick Irvin" Comments="" ID="cf1ae396dbc659cb509c0cdb396d7aa2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-04-11 16:33:39" Creator="Patrick Irvin" Comments="" ID="a30dad7eeead93daa7099f32269f4817">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.0.14</Library_Version>
+    <Library_Version>2.6.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>src</Library_Source_Folder>
+    <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
@@ -38,7 +38,7 @@
     <VI_Package_Configuration_File>LVtoITX.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description/>
+      <Description>Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).</Description>
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
@@ -212,34 +212,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LV to ITX Retrieve Equation.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\LV to ITX Retrieve Equation.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LV to ITX Retrieve.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\LV to ITX Retrieve.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>LV to DAT.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -248,7 +220,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\LV to DAT.vi</Path>
+        <Path>..\src\LV to DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -262,7 +234,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\LV to ITX 2D AutoPlot.vi</Path>
+        <Path>..\src\LV to ITX 2D AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -276,13 +248,41 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\LV to ITX XY2 AutoPlot.vi</Path>
+        <Path>..\src\LV to ITX XY2 AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LV to ITX Graph.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>LV to ITX  Retrieve.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV to ITX  Retrieve.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LV to ITX  Retrieve Equation.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV to ITX  Retrieve Equation.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LV to ITX  Graph.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -290,21 +290,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\LV to ITX Graph.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Sub Palette</Type>
-        <Sub_Palette_Index>1</Sub_Palette_Index>
-        <NameSub_Menu_Name>HELP</NameSub_Menu_Name>
-        <Short_Name>HELP</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>000003BB002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000137000001110000000A0007001700180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0007AD37A92FED37A927ADA70007002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>src\HELP</Path>
+        <Path>..\src\LV to ITX  Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -315,10 +301,24 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>2</Column>
+          <Column>1</Column>
         </Position>
         <Icon>000003BB002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000137000001110000000A0007001700180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0007A087E637AAAFAAAFA6AF0007002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>src\Main</Path>
+        <Path>..\src\Main</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Sub Palette</Type>
+        <Sub_Palette_Index>1</Sub_Palette_Index>
+        <NameSub_Menu_Name>HELP</NameSub_Menu_Name>
+        <Short_Name>HELP</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>000003BB002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000137000001110000000A0007001700180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0007AD37A92FED37A927ADA70007002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
+        <Path>..\src\HELP</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -329,13 +329,13 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000391002900000012000000020000000D00FFFFFF000100000000000A00000008000000000020002000280000010D000000E70000000B0007001600180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF001F095FAC5FA95FA95F653F001F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>src\util</Path>
+        <Path>..\src\util</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9925A6DF08D04367FA749F3D85D473D</GUID>
+      <GUID>9F480DB60C2A56C33AAD09902226C818</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -367,7 +367,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\HELP\ALL.vi</Path>
+        <Path>..\src\HELP\ALL.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -381,7 +381,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\HELP\DAT Example.vi</Path>
+        <Path>..\src\HELP\DAT Example.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -395,7 +395,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\HELP\ITX Example.vi</Path>
+        <Path>..\src\HELP\ITX Example.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -409,10 +409,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\HELP\ITX2 Example.vi</Path>
+        <Path>..\src\HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D885146AEEC8A0A05BD83A3FB76D08B4</GUID>
+      <GUID>0B347A96F7A526467BB0D0D6EA310A8C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -444,7 +444,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\DAT to LV.vi</Path>
+        <Path>..\src\Main\DAT to LV.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -458,7 +458,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\ITX to LV 2.1 1D.vi</Path>
+        <Path>..\src\Main\ITX to LV 2.1 1D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -472,7 +472,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\ITX to LV 2.1.vi</Path>
+        <Path>..\src\Main\ITX to LV 2.1.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -486,7 +486,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 1D multi.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 1D multi.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -500,7 +500,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 1D.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 1D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -514,7 +514,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 2D w X&amp;Y.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 2D w X&amp;Y.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -528,7 +528,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 2D.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 2D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -542,7 +542,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 ITX2.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 ITX2.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -556,7 +556,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX 2.2 XY.vi</Path>
+        <Path>..\src\Main\LV to ITX 2.2 XY.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -570,10 +570,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Main\LV to ITX R+coord.vi</Path>
+        <Path>..\src\Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7CC521643FC88D69BD33011E9FFAF63</GUID>
+      <GUID>BCE1DB0CACD78AF0B8C74690369D7763</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -605,7 +605,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\CheckWavenameLength.vi</Path>
+        <Path>..\src\util\CheckWavenameLength.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -619,7 +619,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LV to ITX XY AutoPlot.vi</Path>
+        <Path>..\src\util\LV to ITX XY AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -633,7 +633,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX 2D Commands.vi</Path>
+        <Path>..\src\util\LVITX 2D Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -647,7 +647,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX 2D X&amp;Y Commands.vi</Path>
+        <Path>..\src\util\LVITX 2D X&amp;Y Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -661,7 +661,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX AddLetter.vi</Path>
+        <Path>..\src\util\LVITX AddLetter.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -675,7 +675,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX append letter to filename.vi</Path>
+        <Path>..\src\util\LVITX append letter to filename.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -689,7 +689,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format 1D.vi</Path>
+        <Path>..\src\util\LVITX Format 1D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -703,7 +703,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format 2D.vi</Path>
+        <Path>..\src\util\LVITX Format 2D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -717,7 +717,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format Cmds.vi</Path>
+        <Path>..\src\util\LVITX Format Cmds.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -731,7 +731,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format Notes.vi</Path>
+        <Path>..\src\util\LVITX Format Notes.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -745,7 +745,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format Path&amp;Filename.vi</Path>
+        <Path>..\src\util\LVITX Format Path&amp;Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -759,7 +759,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Format string 1D.vi</Path>
+        <Path>..\src\util\LVITX Format string 1D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -773,7 +773,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Generate Folder Index.vi</Path>
+        <Path>..\src\util\LVITX Generate Folder Index.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -787,7 +787,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX IBW aperture Commands.vi</Path>
+        <Path>..\src\util\LVITX IBW aperture Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -801,7 +801,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX ITX2 Plot Commands.vi</Path>
+        <Path>..\src\util\LVITX ITX2 Plot Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -815,7 +815,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX OffsetMult Array.vi</Path>
+        <Path>..\src\util\LVITX OffsetMult Array.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -829,7 +829,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX R+coord Commands.vi</Path>
+        <Path>..\src\util\LVITX R+coord Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -843,7 +843,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Read Folder Index.vi</Path>
+        <Path>..\src\util\LVITX Read Folder Index.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -857,7 +857,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Remove Illegal Characters from Wavename.vi</Path>
+        <Path>..\src\util\LVITX Remove Illegal Characters from Wavename.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -871,7 +871,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX Rename Illegal Characters to Wavename.vi</Path>
+        <Path>..\src\util\LVITX Rename Illegal Characters to Wavename.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -885,7 +885,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX XY from 2D Commands.vi</Path>
+        <Path>..\src\util\LVITX XY from 2D Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -899,7 +899,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX XY Plot Commands W2D.vi</Path>
+        <Path>..\src\util\LVITX XY Plot Commands W2D.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -913,7 +913,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\LVITX XY Plot Commands.vi</Path>
+        <Path>..\src\util\LVITX XY Plot Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -927,10 +927,10 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\util\WavenameLengthDialog.vi</Path>
+        <Path>..\src\util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9AA72CA867C79FB7CC1A0165B25849B</GUID>
+      <GUID>AF23D2C4134C5FC05375570F10402729</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -962,10 +962,10 @@
           <Column>1</Column>
         </Position>
         <Icon>0000052E002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002AA00000276000000010007001F00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000003E00020434AC4648F4EAEAEDB42C8A8874C86669B00000003002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>src\Typedefs</Path>
+        <Path>..\src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D676B97089227BD5D18C8620BB1267B6</GUID>
+      <GUID>997CF7612AFB50ACCE95A2A77628918E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -997,7 +997,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Typedefs\Retrieve Data Type.ctl</Path>
+        <Path>..\src\Typedefs\Retrieve Data Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1011,7 +1011,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Typedefs\Retrieve Formula Type.ctl</Path>
+        <Path>..\src\Typedefs\Retrieve Formula Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1025,7 +1025,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Typedefs\Retrieve Index.ctl</Path>
+        <Path>..\src\Typedefs\Retrieve Index.ctl</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1039,10 +1039,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Typedefs\Retrieve N Results.ctl</Path>
+        <Path>..\src\Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB3F8DC1051F1FD1C58356BB9213E741</GUID>
+      <GUID>2AE9E194743084F869DC7AD88433DA7B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
