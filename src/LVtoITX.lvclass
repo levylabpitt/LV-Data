@@ -402,7 +402,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
 	</Item>
-	<Item Name="LV to ITX Graph.vi" Type="VI" URL="../LV to ITX Graph.vi">
+	<Item Name="LV to ITX  Graph.vi" Type="VI" URL="../LV to ITX  Graph.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'3!!!!%!!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!#B!1!!"`````Q!"'V2S97.F)%ZB&lt;76T)#B973"(=G&amp;Q;#"0&lt;GRZ+1!?1%!!!@````]!!2&amp;9,&amp;EM7C"49W&amp;M:3"/97VF=Q!H1"9!!AB973"(=G&amp;Q;!^*&lt;H2F&lt;H.J&gt;(EA2X*B='A!!!2&amp;&lt;H6N!!!&amp;!!I!!#"!1!!#``````````]!"1^*&lt;H2F&lt;H.J&gt;(EA2X*B='A!&amp;5!+!!^5:7VQ:8*B&gt;(6S:3!I3SE!$!"!!!(`````!!=!&amp;U!+!"&amp;$&lt;W^Q:8)A5G6T;8.U97ZD:1!-!%!!!@````]!#1!71&amp;!!!A!)!!I+7&amp;EA2X*B='AA-A!!&amp;E"!!!(`````!!M)7&amp;EA2X*B='A!!"*!-0````])2GFM:7ZB&lt;75!!!Z!-P````]%5'&amp;U;!!!6!$Q!!Q!!!!!!!!!!!!#!!!!!Q!%!!9!$!!.!!Y$!!"Y!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!!!!))!!!!#!!!!1I!!!%+!!!"#A!!!!I!!!!!!1!0!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
@@ -411,7 +411,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
-	<Item Name="LV to ITX Retrieve Equation.vi" Type="VI" URL="../LV to ITX Retrieve Equation.vi">
+	<Item Name="LV to ITX  Retrieve Equation.vi" Type="VI" URL="../LV to ITX  Retrieve Equation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Y!!!!(A!=1$,`````%U:J&lt;'5A&lt;X)A2G^M:'6S)&amp;"B&gt;'A!"!!!!"&amp;!#A!,6'6N='6S982V=G5!$!"!!!(`````!!)!"1!+!!!-!%!!!@````]!"!!+!&amp;!!!A!$!!5!&amp;%"!!!(`````!!9(?4%A&gt;H-A:Q!.1!-!"G^G:H.F&gt;!!!&amp;%"!!!(`````!!9(?4)A&gt;H-A:Q!.1!-!"GRF&lt;G&gt;U;!!!&amp;%"!!!,``````````Q!%!D*%!!!(1!-!!7%!"U!$!!&amp;C!!&gt;!!Q!"9Q!(1!-!!71!"U!$!!&amp;G!!F!!Q!#4D%!!!F!!Q!#4D)!!!F!!Q!#4D-!!!F!!Q!#4D1!!!&gt;!!Q!":Q"0!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-35G6U=GFF&gt;G5A37ZE:8AO9X2M!#2!5!!+!!Q!$1!/!!]!%!!2!")!%Q!5!"5&amp;;7ZE:8A!#5!+!!*/-1!!#5!+!!*/-A!!#5!+!!*/-Q!!#5!+!!*/.!!!1Q$R!!!!!!!!!!)04&amp;:U&lt;UF57#ZM&gt;G.M98.T&amp;F*F&gt;(*J:8:F)%YA5G6T&gt;7RU=SZD&gt;'Q!&amp;%"1!!1!&amp;Q!9!"E!'A&amp;/!"*!-0````])1W^N&lt;76O&gt;(-!!'Q!]!!1!!!!!1!"!!%!"Q!)!!E!#A!,!"9!'Q!"!!%!!1!=!!%$!!%)!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!A!!!!*!!!!#!!!!!E!!!!)!!!!#1!!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!%!(1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
@@ -420,7 +420,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
 	</Item>
-	<Item Name="LV to ITX Retrieve.vi" Type="VI" URL="../LV to ITX Retrieve.vi">
+	<Item Name="LV to ITX  Retrieve.vi" Type="VI" URL="../LV to ITX  Retrieve.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(,!!!!(1!=1$,`````%U:J&lt;'5A&lt;X)A2G^M:'6S)&amp;"B&gt;'A!"!!!!"&amp;!#A!,6'6N='6S982V=G5!$!"!!!(`````!!)!"1!+!!!-!%!!!@````]!"!!+!&amp;!!!A!$!!5!&amp;%"!!!(`````!!9'13"W=S"#!!!.1!-!"G^G:H.F&gt;!!!&amp;%"!!!(`````!!9'1S"W=S"%!!!.1!-!"GRF&lt;G&gt;U;!!!%E"!!!,``````````Q!%!55!"U!$!!&amp;"!!&gt;!!Q!"1A!(1!-!!5-!"U!$!!&amp;%!!&gt;!!Q!"21!*1!-!!EYR!!!*1!-!!EYS!!!*1!-!!EYT!!!*1!-!!EYU!!!?1&amp;!!#1!-!!U!$A!0!"!!%1!3!"-!&amp;!6J&lt;G2F?!!*1!I!!EYR!!!*1!I!!EYS!!!*1!I!!EYT!!!*1!I!!EYU!!!11&amp;!!"!!7!"=!'!!:!5Y!%E!Q`````QB$&lt;WVN:7ZU=Q!!&lt;!$Q!"!!!!!"!!%!!1!(!!A!#1!+!!M!&amp;1!;!!%!!1!"!"M!!1-!!1A!!!A!!!!!!!!!!!!!!!!!!!!*!!!!#!!!!!E!!!!)!!!!#1!!!!I!!!!*!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!1!=!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
