@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-05-03 12:35:37" Creator="Patrick Irvin" Comments="" ID="d0605abf696f0b3492df3bff8133aea2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-06-05 09:49:42" Creator="Patrick Irvin" Comments="" ID="ec74c64ed9e79e7607cf81b15962cabb">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.2.17</Library_Version>
+    <Library_Version>2.6.3.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -42,7 +42,7 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>- add more nodes for formula string and formula type to "LV to ITX Retrieve Equation.vi"</Release_Notes>
+      <Release_Notes>- Fix bug when reading itx files with 1D or 2D data in "LV to ITX Retrieve.vi"</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -332,7 +332,7 @@
         <Path>..\src\util</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45496109C7AB9FC49284AB40A59A4717</GUID>
+      <GUID>0707DCBDD2879C394EB03FC871A4E477</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -409,7 +409,7 @@
         <Path>..\src\HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C58A96A48B79957913CFEC41D078ADDA</GUID>
+      <GUID>EB79712579308C3AF81AEBF8535D5F08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -570,7 +570,7 @@
         <Path>..\src\Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FF498EB1DC517EE8AE7561455282F22</GUID>
+      <GUID>CB9AF85075FBC5269CC9C2BBBE2B7ACA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -927,7 +927,7 @@
         <Path>..\src\util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10CCCE84278D84D117F26FD3B9BC9748</GUID>
+      <GUID>55749553833F3B3FE497CEA65FC92AFC</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -962,7 +962,7 @@
         <Path>..\src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90E244F0C6C8BF76E34C94C92D3F1CD8</GUID>
+      <GUID>4796FF0930A24C738452BC46ED7EA4D9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1039,7 +1039,7 @@
         <Path>..\src\Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F6B0F4DCC5E123F17DA9A07CCA6487A</GUID>
+      <GUID>56ACE9BAAE83846906E329321BE8B948</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
