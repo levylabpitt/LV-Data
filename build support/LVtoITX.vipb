@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-06-13 11:46:02" Creator="Patrick Irvin" Comments="" ID="1250438914f990f6a1469b7189fe9e83">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-06-13 11:50:11" Creator="Patrick Irvin" Comments="" ID="03997c3b805ad61b524d2758733572d3">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
     <Library_Version>2.6.3.18</Library_Version>
@@ -42,7 +42,7 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>- Fix bug when reading itx files with 1D or 2D data in "LV to ITX Retrieve.vi"</Release_Notes>
+      <Release_Notes>- change name "LV to ITX XY2 Autoplot.vi" to "LV to ITX Autoplot.vi". Update your links</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -307,7 +307,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LV to ITX 2D AutoPlot</NameSub_Menu_Name>
+        <NameSub_Menu_Name>LV to ITX 2D AutoPlot.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -321,7 +321,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>LV to ITX XY2 AutoPlot</NameSub_Menu_Name>
+        <NameSub_Menu_Name>LV to ITX AutoPlot.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -332,7 +332,7 @@
         <Path>..\src\LV to ITX AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>306BC4E6A60331BF13E1AF0641D431C7</GUID>
+      <GUID>A4CE8E14AF2688180A3C74CC4173F3D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -409,7 +409,7 @@
         <Path>..\src\HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B45501BBF19295156884AF61D8B6AF81</GUID>
+      <GUID>D9163BCE576E4FADDB10B1B5D234F71F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -570,7 +570,7 @@
         <Path>..\src\Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FFA49D8CCCEEDC68349689E70FB700B</GUID>
+      <GUID>60F1DC01621D2FDC559A7A8535C0B90C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -927,7 +927,7 @@
         <Path>..\src\util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43516AD3990C8AE9A90209F07F39C42A</GUID>
+      <GUID>ABA1EA2F7317FEB315600010E8784BBD</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -962,7 +962,7 @@
         <Path>..\src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23DC8541A0E068CAF8FD11D22290851C</GUID>
+      <GUID>AF38D224D22E59ECE5EED525A29D1D5C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1039,7 +1039,7 @@
         <Path>..\src\Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09E0F6D4E0023F1C8E1600A588BF0224</GUID>
+      <GUID>EC017BE50A075B7D1DCA4524F8E2C900</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
