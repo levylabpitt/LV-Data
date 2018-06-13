@@ -447,7 +447,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
 	</Item>
-	<Item Name="LV to ITX XY2 AutoPlot.vi" Type="VI" URL="../LV to ITX XY2 AutoPlot.vi">
+	<Item Name="LV to ITX AutoPlot.vi" Type="VI" URL="../LV to ITX AutoPlot.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!$Q!31$$`````#':J&lt;'6O97VF!!!/1$,`````"("B&gt;'A!!!1!!!!/1$,`````"':J&lt;'5!!!Z!-0````]&amp;4G^U:8-!#U!+!!2N:7&amp;O!!!71%!!!@````]!"1B:)#""=H*B?1!!#!"1!!%!"A!31%!!!@````]!"Q2%982B!!!31$$`````#8&gt;B&gt;G6O97VF=Q!C1%!!!@````]!#22X98:F&lt;G&amp;N:8-A+#Z7?#QA:82D+1!!'%"!!!(`````!!E+7#R:)%RB9G6M=Q!!$5!$!!&gt;/&gt;7VF=GFD!"2!1!!"`````Q!-"VAM73"-&lt;W=!&lt;!$Q!"!!!!!"!!)!!A!$!!1!!A!)!!)!!A!#!!I!#Q!.!!)!!A-!!1A!!1I!!!!+!!!!!!!!!!!!!!!*!!!##!!!!!!!!!))!!!!!!!!!!!!!!!!!!!##!!!!AA!!!))!!!!!!!!!!!!!!!!!1!/!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
