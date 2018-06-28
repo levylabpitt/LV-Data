@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-06-13 12:01:52" Creator="Patrick Irvin" Comments="" ID="054a75db3cce0e9b660bac4f54a2129a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2018-06-28 17:04:23" Creator="Patrick Irvin" Comments="" ID="6ac07571ebe23815b900b765a2893e15">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.3.19</Library_Version>
+    <Library_Version>2.6.4.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -42,8 +42,7 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>- please note name change "LV to ITX Autoplot.vi" to "LV to ITX XY2 Autoplot.vi"
-- updated function palette and other minor cosmetic changes</Release_Notes>
+      <Release_Notes>- revert everything back to the public access scope</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -305,7 +304,7 @@
         <Path>..\src\LV to ITX  Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EED989DAC4B636E8D7A4472C36303581</GUID>
+      <GUID>91E8DA6EE8AB2CF4ED7BF533118AC6CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +381,7 @@
         <Path>..\src\HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>408AB327309127343D03542C24E69A31</GUID>
+      <GUID>A859A51A64241AA8C64923995A4EF1D8</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -417,7 +416,7 @@
         <Path>..\src\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34877B244E0A30CA9A3067F8F3F9A280</GUID>
+      <GUID>6C5FB552ADCD0DD6B0A48AB5B76D2D79</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +493,7 @@
         <Path>..\src\Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27A6BBE35C867BA535A5D4177D7507E3</GUID>
+      <GUID>AB75285813360A3BEFAAD03DDD9D5501</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
