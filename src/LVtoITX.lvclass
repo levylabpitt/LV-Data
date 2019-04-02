@@ -16,10 +16,6 @@
 	<Item Name="LVtoITX.ctl" Type="Class Private Data" URL="LVtoITX.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="build support" Type="Folder">
-		<Item Name="LVtoITX.vipb" Type="Document" URL="../../build support/LVtoITX.vipb"/>
-		<Item Name="LVtoITX.vipc" Type="Document" URL="../../build support/LVtoITX.vipc"/>
-	</Item>
 	<Item Name="HELP" Type="Folder">
 		<Item Name="ALL.vi" Type="VI" URL="../HELP/ALL.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
