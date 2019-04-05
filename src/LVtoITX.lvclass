@@ -137,6 +137,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
+		<Item Name="LV to ITX XY AutoPlot.vi" Type="VI" URL="../Main/LV to ITX XY AutoPlot.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'P!!!!%A!31$$`````#':J&lt;'6O97VF!!!/1$,`````"("B&gt;'A!!!1!!!!/1$,`````"':J&lt;'5!!!Z!-0````]&amp;4G^U:8-!$5!+!!:-97VC:'%!!":!1!!"`````Q!&amp;#&amp;AA)'&amp;S=G&amp;Z!!!,1!I!"'VF97Y!!":!1!!"`````Q!(#&amp;EA)%&amp;S=G&amp;Z!!!=1&amp;!!!A!'!!A218:F=G&amp;H:71A7&amp;EA2X*B='A!&amp;E"!!!(`````!!E)7&amp;EA18*S98E!!"*!-0````]*&gt;W&amp;W:7ZB&lt;76T!#*!1!!"`````Q!,&amp;(&gt;B&gt;G6O97VF=S!I,F:Y,#"F&gt;'-J!!!91%!!!@````]!#QJ9,&amp;EA4'&amp;C:7RT!!!.1!-!"UZV&lt;76S;7-!&amp;%"!!!(`````!!Y(7#R:)%RP:Q!91$$`````$G.P&lt;7VB&lt;G1A=X2S;7ZH!!"M!0!!%!!!!!%!!A!#!!-!"!!#!!I!!A!#!!)!$!!.!!]!%!!#!Q!"#!!"#A!!!!I!!!!!!!!!!!!!!!E!!!!+!!!!!!!!!AA!!!!!!!!!!!!!!!!!!!))!!!##!!!!AA!!!))!!!!!!!!!!!"!"%!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="LV to ITX R+coord.vi" Type="VI" URL="../Main/LV to ITX R+coord.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#5!!!!"!!%!!!!(E!S`````R6D&lt;W^S:'FO982F=S"G;7RF)("B&gt;'A!&amp;E!S`````QVJ9H=A:GFM:3"Q982I!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!#!Q!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!!!!%!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -166,15 +175,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-		</Item>
-		<Item Name="LV to ITX XY AutoPlot.vi" Type="VI" URL="../util/LV to ITX XY AutoPlot.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'8!!!!%1!31$$`````#':J&lt;'6O97VF!!!/1$,`````"("B&gt;'A!!!1!!!!/1$,`````"':J&lt;'5!!!Z!-0````]&amp;4G^U:8-!$5!+!!:-97VC:'%!!":!1!!"`````Q!&amp;#&amp;AA)'&amp;S=G&amp;Z!!!,1!I!"'VF97Y!!":!1!!"`````Q!(#&amp;EA)%&amp;S=G&amp;Z!!!=1&amp;!!!A!'!!A218:F=G&amp;H:71A7&amp;EA2X*B='A!&amp;E"!!!(`````!!E)7&amp;EA18*S98E!!"*!-0````]*&gt;W&amp;W:7ZB&lt;76T!#*!1!!"`````Q!,&amp;(&gt;B&gt;G6O97VF=S!I,F:Y,#"F&gt;'-J!!!91%!!!@````]!#QJ9,&amp;EA4'&amp;C:7RT!!!.1!-!"UZV&lt;76S;7-!&amp;%"!!!(`````!!Y(7#R:)%RP:Q"M!0!!%!!!!!%!!A!#!!-!"!!#!!I!!A!#!!)!$!!.!!]!!A!#!Q!"#!!"#A!!!!I!!!!!!!!!!!!!!!E!!!!+!!!!!!!!!AA!!!!!!!!!!!!!!!!!!!))!!!##!!!!AA!!!!!!!!!!!!!!!!"!"!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="LVITX 2D Commands.vi" Type="VI" URL="../util/LVITX 2D Commands.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%-!!!!#1!51$$`````#T*%)(&gt;B&gt;G6O97VF!!1!!!!71$$`````$8*F=X6M&gt;#"T&gt;(*J&lt;G=!&amp;%!Q`````QJ9)(&gt;B&gt;G6O97VF!!!51$$`````#FEA&gt;W&amp;W:7ZB&lt;75!!"*!-0````]*&gt;W&amp;W:7ZB&lt;76T!"J!1!!"`````Q!&amp;$&amp;AM73R;)%RB9G6M=Q!!&amp;E!Q`````QRJ&lt;H"V&gt;#"T&gt;(*J&lt;G=!!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!9!!1!"!!%!"Q!"!!%#!!%)!!))!!!!!!!!!!!!!!!!!!!!$1U!!AA!!!!!!!!##!!!!!!!!!))!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!%!#!!!!!!</Property>
