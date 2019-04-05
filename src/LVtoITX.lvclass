@@ -102,13 +102,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="LV to ITX 2.2 2D w X&amp;Y.vi" Type="VI" URL="../Main/LV to ITX 2.2 2D w X&amp;Y.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!$A!31$$`````#%.P&lt;7VB&lt;G2T!!!51#%03WFM&lt;#"9*FEA&gt;W&amp;W:8-`!!1!!!!/1$,`````"':J&lt;'5!!":!-0````]-73""=H*B?3"O97VF!!!31$,`````#':J&lt;'6O97VF!!!.1!I!"UZV&lt;76S;7-!'%"!!!(`````!!9+73!R2#""=H*B?1!!$E!Q`````Q6/&lt;X2F=Q!71$$`````$6AA)%&amp;S=G&amp;Z)'ZB&lt;75!'%"!!!(`````!!9+7#!R2#""=H*B?1!!&amp;E!Q`````QUS2#""=H*B?3"O97VF!"J!1!!#``````````]!"AAS2#""=H*B?1!!6!$Q!!Q!!!!"!!)!!Q!%!!5!"Q!)!!E!#A!,!!Q$!!"Y!!))!!!!#!!!!!!!!!!*!!!"#A!!!!A!!!))!!!!#A!!!AA!!!))!!!##!!!!AA!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!$A!31$$`````#%.P&lt;7VB&lt;G2T!!!51#%03WFM&lt;#"9*FEA&gt;W&amp;W:8-`!!1!!!!/1$,`````"':J&lt;'5!!":!-0````]-73""=H*B?3"O97VF!!!31$,`````#':J&lt;'6O97VF!!!.1!I!"UZV&lt;76S;7-!'%"!!!(`````!!9+73!R2#""=H*B?1!!$E!Q`````Q6/&lt;X2F=Q!71$$`````$6AA)%&amp;S=G&amp;Z)'ZB&lt;75!'%"!!!(`````!!9+7#!R2#""=H*B?1!!&amp;E!Q`````QUS2#""=H*B?3"O97VF!"J!1!!#``````````]!"AAS2#""=H*B?1!!6!$Q!!Q!!!!"!!)!!Q!%!!5!"Q!)!!E!#A!,!!Q$!!"Y!!))!!!!#!!!!!!!!!!*!!!"#A!!!!A!!!))!!!!#A!!!1I!!!))!!!"#A!!!AA!!!!!!1!.!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="LV to ITX 2.2 2D.vi" Type="VI" URL="../Main/LV to ITX 2.2 2D.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$0!!!!#!!31$$`````#%.P&lt;7VB&lt;G2T!!!%!!!!%E!S`````QBG;7RF&lt;G&amp;N:1!!$E!Q`````Q6/&lt;X2F=Q!71$$`````$4*%)%&amp;S=G&amp;Z)'ZB&lt;75!$5!+!!&gt;/&gt;7VF=GFD!"J!1!!#``````````]!"1AS2#""=H*B?1!!6!$Q!!Q!!!!"!!%!!1!"!!)!!1!$!!%!!1!%!!9$!!"Y!!%+!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#A!!!!!!!!!!!!!"#A!!!AA!!!!!!1!(!!!!!!</Property>
@@ -186,13 +186,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="LVITX 2D X&amp;Y Commands.vi" Type="VI" URL="../util/LVITX 2D X&amp;Y Commands.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#-!!!!"A!71$$`````$8*F=X6M&gt;#"T&gt;(*J&lt;G=!&amp;%!B$UNJ&lt;'QA7#::)(&gt;B&gt;G6T0Q!11$$`````"FEA&gt;W&amp;W:1!!%%!Q`````Q:9)(&gt;B&gt;G5!!""!-0````](-E1A&gt;W&amp;W:1!K!0!!"1!!!!%!!A!$!!1#!!"!!!!*!!!!#!!!!AA!!!))!!!##!!!!!!"!!5!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].=G6T&gt;7RU)(.U=GFO:Q!51#%03WFM&lt;#"9*FEA&gt;W&amp;W:8-`!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q::)(&gt;B&gt;G5!!""!-0````]'7#"X98:F!!!11$$`````"T*%)(&gt;B&gt;G5!6!$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!)!!!!!!!!!!I!!!))!!!##!!!!AA!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 		<Item Name="LVITX AddLetter.vi" Type="VI" URL="../util/LVITX AddLetter.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"'!!!!!Q!71$$`````$7^V&gt;("V&gt;#"T&gt;(*J&lt;G=!%%!Q`````Q:4&gt;(*J&lt;G=!!"A!]!!#!!!!!1)!!!A!!!U"!!%+!!!!!!%!!A!!!!!</Property>
