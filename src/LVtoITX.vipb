@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-04-29 11:22:40" Creator="Patrick Irvin" Comments="" ID="b62883c2f744a4d2c2f5b3495216e67e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-04-29 11:28:33" Creator="Patrick Irvin" Comments="" ID="11dbe5a2c0a0050965cd342b35120729">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.9.26</Library_Version>
+    <Library_Version>2.6.9.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -21,7 +21,6 @@
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 1.1.0.7</External_Dependencies>
       <External_Dependencies>levylab_lib_ibwtolv &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_control_vi &gt;=1.1.1.4</Additional_External_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.2.8</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-1.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_ibwtolv-1.0.0.2</Direct_Dependencies>
@@ -42,7 +41,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>- remove references to color utilities package
+      <Release_Notes>- remove calls to color utilities package
+- remove color utilities and control experiment dependencies
 - update Help icons</Release_Notes>
     </Description>
     <Destinations>
@@ -336,7 +336,7 @@
         <Path>util</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1DED0988A33D85DDD08055BEBB73698D</GUID>
+      <GUID>09A02ACC0376541BD70A41C1DDCC6CC2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +413,7 @@
         <Path>HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E66ED2E8F4789CB09B2F878FC5B14588</GUID>
+      <GUID>91955DD0F153B0E93914381A918BB371</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +602,7 @@
         <Path>Main\LV to ITX XY AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13B416BA44D6BE27A69B23B7B8E9FF5C</GUID>
+      <GUID>4B3517FA653847ED63E441BE05264D68</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -945,7 +945,7 @@
         <Path>util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBE8717877AEFD29EFA5504EA8C1668E</GUID>
+      <GUID>C7490E7369BBF2E065E6EE8E7AD7C780</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -980,7 +980,7 @@
         <Path>Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B2876C7210C8934689E806FDD51EBC6</GUID>
+      <GUID>DB29EB6EA6B391F3715001E02FA9DB02</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1057,7 +1057,7 @@
         <Path>Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D76481343108B22A88C12127A1022E6B</GUID>
+      <GUID>31D0636EF4B6C242D4E36C608FAAA647</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
