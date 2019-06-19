@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-06-03 14:01:55" Creator="Patrick Irvin" Comments="" ID="2d99431907382f56204b14d78726c8cc">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-06-19 14:30:51" Creator="Patrick Irvin" Comments="" ID="4931784c0c97230e957c1ba94dcb29a1">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.10.28</Library_Version>
+    <Library_Version>2.6.11.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -41,8 +41,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>- added "Data Type" and "DAT Header Length" to ITX Retrieve.vi terminal panel.
-- added some error terminals to a few VIs</Release_Notes>
+      <Release_Notes>- update Examples
+- change LV to DAT.vi terminal</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -335,7 +335,7 @@
         <Path>util</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96B1DA34C6151DF7AFAA3B2DD245CD30</GUID>
+      <GUID>EA969BCDD2410E780AAD8710A062CD0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -412,7 +412,7 @@
         <Path>HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45C6E8FE800129A702AD90C1AB2A394A</GUID>
+      <GUID>EE9FAD775E073627163B0FCD3F63D43B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -601,7 +601,7 @@
         <Path>Main\LV to ITX XY AutoPlot.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>441B4D7611D33EE30D3DEDADF8675388</GUID>
+      <GUID>BE6EE40CA82E32A5865E254B143B1E28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -944,7 +944,7 @@
         <Path>util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B7C6DA4066C5D3575F64706EA1E4873</GUID>
+      <GUID>E6DAC0EE6E3A54911F9F30460773B799</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -979,7 +979,7 @@
         <Path>Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27773E50CF133FEEA41D502946198CC4</GUID>
+      <GUID>7DB4B5A9FB2FD92C1872C188BBF06AC5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1056,7 +1056,7 @@
         <Path>Typedefs\Retrieve N Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>287F17A9FB701916B368893AC98F509F</GUID>
+      <GUID>44D1135793104210C643A2B683BE251C</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
