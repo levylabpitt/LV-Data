@@ -432,7 +432,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="LV to DAT.vi" Type="VI" URL="../LV to DAT.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-P````].&lt;G6X)':J&lt;'5A='&amp;U;!!C1#%=98"Q:7ZE)(2P)':J&lt;'5`)#BO:8=A:GFM:4J'+1!!%E!Q`````QFX98:F&lt;G&amp;N:8-!)E"!!!(`````!!=5&gt;W&amp;W:7ZB&lt;76T)#AO6HAM)'6U9SE!!!Z!-P````]%='&amp;U;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!V!#A!(4H6N:8*J9Q!31%!!!@````]!#Q2%982B!!!31$$`````#%.P&lt;7VF&lt;H2T!!!31$$`````#':J&lt;'6O97VF!!"5!0!!$!!$!!1!"!!&amp;!!9!"!!)!!E!#A!-!!U!$A-!!(A!!!U)!!!!!!!!!!!!!!E!!!!)!!!!!!!!!AA!!!!+!!!!#A!!!AA!!!))!!!"#A!!!!!"!!]!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-P````].&lt;G6X)':J&lt;'5A='&amp;U;!!C1#%=98"Q:7ZE)(2P)':J&lt;'5`)#BO:8=A:GFM:4J'+1!!%E!Q`````QFX98:F&lt;G&amp;N:8-!)E"!!!(`````!!=5&gt;W&amp;W:7ZB&lt;76T)#AO6HAM)'6U9SE!!"*!-0````]):GFM:7ZB&lt;75!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!I!"UZV&lt;76S;7-!%E"!!!(`````!!M%2'&amp;U91!!%E!Q`````QB$&lt;WVN:7ZU=Q!!$E!S`````Q2Q982I!!"5!0!!$!!$!!1!"!!&amp;!!9!"!!)!!E!#A!-!!U!$A-!!(A!!!U)!!!!!!!!!!!!!!E!!!!)!!!!!!!!!AA!!!%+!!!!#A!!!AA!!!))!!!!#A!!!!!"!!]!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
