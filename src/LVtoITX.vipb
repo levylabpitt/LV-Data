@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-09-18 13:56:48" Creator="Patrick Irvin" Comments="" ID="9c19a1cd1e1db871d4034a81ac8b41ed">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-09-18 16:00:19" Creator="Patrick Irvin" Comments="" ID="9e84a4d33980e8e5bf39aa6c6f338a2e">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.6.12.30</Library_Version>
+    <Library_Version>2.6.13.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -41,12 +41,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[2.6.12.29]
-- DAT files now support 1D and 2D arrays (write multiple times at once)
-- DAT header has "---" flag indicating end of comments section
-- DAT to LV read looks for "---" to
-- icon improvements
-- rearrange files and subfolders</Release_Notes>
+      <Release_Notes>[2.6.13.30]
+- fix bug that would not format comments correctly when writing a DAT file</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -353,7 +349,7 @@
         <Path>LV to DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB35E4ED98AAE2F733EE0CFA20EDEC08</GUID>
+      <GUID>9F32024EA6BAF164D3442D15ACE5C7BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +426,7 @@
         <Path>HELP\ITX2 Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1256C77B457D74BAC64FF259322790FE</GUID>
+      <GUID>EE210827BC544F2357FD9DB2D8023262</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -633,7 +629,7 @@
         <Path>Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0E1C0A2530984010E2E03C0814B1476</GUID>
+      <GUID>D545C03C488178AAB2BC065EABCBD5D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -976,7 +972,7 @@
         <Path>util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7650349974BF77B6AF7F6716D94945E4</GUID>
+      <GUID>248D9CC4797425A87028ACD77089FEE4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
