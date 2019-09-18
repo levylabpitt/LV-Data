@@ -55,15 +55,6 @@
 	</Item>
 	<Item Name="Main" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="DAT to LV.vi" Type="VI" URL="../Main/DAT to LV.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!71%!!!@````]!"1F898:F&lt;G&amp;N:8-!$5!+!!:4&gt;(*J&lt;G=!!":!1!!#``````````]!"Q2%982B!!!31$$`````#%.P&lt;7VF&lt;H2T!!!41!-!$7BF972F=C"M:7ZH&gt;'A!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$,`````#5:J&lt;'5A5'&amp;U;!"5!0!!$!!$!!1!"A!)!!E!"!!+!!1!#Q!%!!1!$!-!!(A!!!U)!!!!!!!!#1!!!!E!!!!*!!!!!!!!!!A!!!!!!!!!#A!!!!!!!!!!!!!!#A!!!!!"!!U!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-		</Item>
 		<Item Name="ITX to LV 2.1 1D.vi" Type="VI" URL="../Main/ITX to LV 2.1 1D.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#!!Q`````Q!91%!!!@````]!"!JX98:F)'ZB&lt;76T!!!&amp;!!I!!"J!1!!#``````````]!"AER2#"B=H*B?8-!)%"!!!(`````!!9498*S98EA&gt;(FQ:3!I-E1A2'*M+1!)!&amp;!!!1!)!"*!1!!"`````Q!*"5&amp;S=G&amp;Z!!Z!-0````]&amp;4G^U:8-!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!;1$,`````%7:J&lt;'5A+(6T:3"E;7&amp;M&lt;W=J!&amp;1!]!!-!!-!"1!(!!I!#Q!-!!Q!$!!.!!Q!$!!/!Q!!?!!!$1A!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!)!!!!!!%!$Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -411,6 +402,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
+	</Item>
+	<Item Name="DAT to LV.vi" Type="VI" URL="../Main/DAT to LV.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!71%!!!@````]!"1F898:F&lt;G&amp;N:8-!$5!+!!:4&gt;(*J&lt;G=!!":!1!!#``````````]!"Q2%982B!!!31$$`````#%.P&lt;7VF&lt;H2T!!!41!-!$7BF972F=C"M:7ZH&gt;'A!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$,`````#5:J&lt;'5A5'&amp;U;!"5!0!!$!!$!!1!"A!)!!E!"!!+!!1!#Q!%!!1!$!-!!(A!!!U)!!!!!!!!#1!!!!E!!!!*!!!!!!!!!!A!!!!!!!!!#A!!!!!!!!!!!!!!#A!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="LV to DAT.vi" Type="VI" URL="../LV to DAT.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*J_-Z8!!%!!!!!!!!</Property>
