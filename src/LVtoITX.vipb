@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-11-07 21:52:49" Creator="Patrick Irvin" Comments="" ID="094260a23cb7873bc53cdd56cd0901e6">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-11-07 22:02:42" Creator="Patrick Irvin" Comments="" ID="f814d0b36b70e43e7cb62b1a191490b0">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.7.0.3</Library_Version>
+    <Library_Version>2.7.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -41,9 +41,10 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[2.7.0.2]
+      <Release_Notes>[2.7.0.3]
 - add functionality for writing and reading TDMS files and converting ITX to TDMS
-- this release fixes issue with orphaned HDF5 files</Release_Notes>
+- this release fixes issue with orphaned HDF5 files
+- bug fixes in LV to ITX  Retrieve.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -404,7 +405,7 @@
         <Path>Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F843916B1DB2E2985FF3BA25F23062D5</GUID>
+      <GUID>5C3D066583FD50FD498C934F73E25EB3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -565,7 +566,7 @@
         <Path>API\Write Comments.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AB274F4138E121BFFCC02BDA28B711C</GUID>
+      <GUID>A454A5FC3D8C59BA599065AFBBB6D9EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -642,7 +643,7 @@
         <Path>HELP\TDMS Read Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3DD21D1D87755732A1EBABC1346D43F</GUID>
+      <GUID>383F4DDFB8C0EA968E9C8B3523D6F2A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +846,7 @@
         <Path>Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2842948550568C0AC0F03B1D8CD8B209</GUID>
+      <GUID>3DBD836D1CC58218AEDC64FAADA3A4ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -964,7 +965,7 @@
         <Path>TDMS\ITX to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>783F5305BDAC5ED61E26355AEEC6A0E1</GUID>
+      <GUID>3CB74484E87811190B32A2C48CAFF356</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -999,7 +1000,7 @@
         <Path>Tests\Test TDMS Read Speed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96A330D500D2EC266BC7164895C45B04</GUID>
+      <GUID>314EE6F7EE6274558A3DC2111DAC8329</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1356,7 +1357,7 @@
         <Path>util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0926F51DE49DDFB8AA41FC3B5398A9D</GUID>
+      <GUID>2233ABAB460E1DB6FBF9F5BAF966DA4B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
