@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2019-12-11 10:03:16" Creator="Patrick Irvin" Comments="" ID="24f362bd0c677b0b0d64e0e7bb169f34">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-10-11 09:50:03" Modified_Date="2020-01-09 12:53:04" Creator="Patrick Irvin" Comments="" ID="a4f851aebc10f1c43cac13909ea3e794">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.7.3.8</Library_Version>
+    <Library_Version>2.7.4.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -47,8 +47,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[2.7.3.7]
-- add LVITX Format Path&amp;Filename TDMS.vi to class</Release_Notes>
+      <Release_Notes>[2.7.4.8]
+- add variant to array subVI to TDMS write</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -409,7 +409,7 @@
         <Path>Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>249A280AB1168A9380616F5586ADF596</GUID>
+      <GUID>0151610D9C5CC22073ADB90DFEE9032D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -570,7 +570,7 @@
         <Path>API\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8BFC9E05BCA604419D611C62D33C7EF</GUID>
+      <GUID>05CF8BE547DD18EB74490503B5DD8613</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>HELP\TDMS Read Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>250016A0D470C5CEE880F82DB1D54FA2</GUID>
+      <GUID>8305D50D8502BD2A641514363A804DDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -850,7 +850,7 @@
         <Path>Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A16C77841EBCF9144C388B63FC4E0F3</GUID>
+      <GUID>37559D4E3D957BE3A0D7B6A9FDF95385</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -969,7 +969,7 @@
         <Path>TDMS\Read TDMS Wavenames.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDFEF4A1C5ECA6E304AFA9892541546B</GUID>
+      <GUID>73D3EAED35B5E2E8071113645FDD340F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1004,7 +1004,7 @@
         <Path>Tests\Test TDMS Read Speed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD5B59FDB29BBAFA495ACDC4E0505161</GUID>
+      <GUID>66DF014C8A446441900843A561B5BE49</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1361,7 +1361,7 @@
         <Path>util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E51843B12EF4DE8F623FD19A27B77246</GUID>
+      <GUID>75BB2A31EFAAD74A74181A54C7BB1A11</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
