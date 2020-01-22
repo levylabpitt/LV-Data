@@ -25,6 +25,53 @@
 	<Item Name="LVtoITX.ctl" Type="Class Private Data" URL="LVtoITX.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Dictionary--cluster.ctl" Type="VI" URL="../Typedefs/Dictionary--cluster.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"G!!!!!Q!-1$$`````!WNF?1!+1&amp;-&amp;&gt;G&amp;M&gt;75!3!$R!!!!!!!!!!)04&amp;:U&lt;UF57#ZM&gt;G.M98.T&amp;U2J9X2J&lt;WZB=HEN,7.M&gt;8.U:8)O9X2M!"B!5!!#!!!!!1FL:8EN&gt;G&amp;M&gt;75!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="Retrieve Data Type.ctl" Type="VI" URL="../Typedefs/Retrieve Data Type.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?!!!!!1"7!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-75G6U=GFF&gt;G5A2'&amp;U93"5?8"F,G.U&lt;!!H1"9!!Q.*6&amp;A*3629)(=P)$*%!U2"6!!*2'&amp;U93"5?8"F!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
+		</Item>
+		<Item Name="Retrieve Formula Type.ctl" Type="VI" URL="../Typedefs/Retrieve Formula Type.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"T!!!!!1"L!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-:5G6U=GFF&gt;G5A2G^S&lt;86M93"5?8"F,G.U&lt;!!Z1"9!!B6#&lt;'^D;S"%;7&amp;H=G&amp;N)%:P=GVV&lt;'%/5X2S;7ZH)%:P=GVV&lt;'%!!!:&amp;&lt;H6N)$)!!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
+		</Item>
+		<Item Name="Retrieve Index.ctl" Type="VI" URL="../Typedefs/Retrieve Index.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#F!!!!#Q!(1!-!!7%!"U!$!!&amp;C!!&gt;!!Q!"9Q!(1!-!!71!"U!$!!&amp;G!!F!!Q!#4D%!!!F!!Q!#4D)!!!F!!Q!#4D-!!!F!!Q!#4D1!!!&gt;!!Q!":Q"0!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-35G6U=GFF&gt;G5A37ZE:8AO9X2M!#2!5!!+!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E&amp;;7ZE:8A!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
+		</Item>
+		<Item Name="Retrieve N Results.ctl" Type="VI" URL="../Typedefs/Retrieve N Results.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"P!!!!"1!*1!I!!EYR!!!*1!I!!EYS!!!*1!I!!EYT!!!*1!I!!EYU!!"$!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-75G6U=GFF&gt;G5A4C"3:8.V&lt;(2T,G.U&lt;!!51&amp;!!"!!!!!%!!A!$!5Y!!1!%!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
+		</Item>
+	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="Test TDMS Read Speed.vi" Type="VI" URL="../Tests/Test TDMS Read Speed.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$UR7&gt;'^*6&amp;AO&lt;(:D&lt;'&amp;T=Q!,4&amp;:U&lt;UF57#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!G1(!!(A!!%1^-6H2P3629,GRW9WRB=X-!#ER7&gt;'^*6&amp;AA;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
@@ -193,7 +240,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
-		<Item Name="LV to DAT.vi" Type="VI" URL="../LV to DAT.vi">
+		<Item Name="LV to DAT.vi" Type="VI" URL="../Main/LV to DAT.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*J_-Z8!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -447,53 +494,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-		</Item>
-	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Dictionary--cluster.ctl" Type="VI" URL="../Typedefs/Dictionary--cluster.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"G!!!!!Q!-1$$`````!WNF?1!+1&amp;-&amp;&gt;G&amp;M&gt;75!3!$R!!!!!!!!!!)04&amp;:U&lt;UF57#ZM&gt;G.M98.T&amp;U2J9X2J&lt;WZB=HEN,7.M&gt;8.U:8)O9X2M!"B!5!!#!!!!!1FL:8EN&gt;G&amp;M&gt;75!!1!#!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
-		<Item Name="Retrieve Data Type.ctl" Type="VI" URL="../Typedefs/Retrieve Data Type.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?!!!!!1"7!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-75G6U=GFF&gt;G5A2'&amp;U93"5?8"F,G.U&lt;!!H1"9!!Q.*6&amp;A*3629)(=P)$*%!U2"6!!*2'&amp;U93"5?8"F!!%!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
-		</Item>
-		<Item Name="Retrieve Formula Type.ctl" Type="VI" URL="../Typedefs/Retrieve Formula Type.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"T!!!!!1"L!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-:5G6U=GFF&gt;G5A2G^S&lt;86M93"5?8"F,G.U&lt;!!Z1"9!!B6#&lt;'^D;S"%;7&amp;H=G&amp;N)%:P=GVV&lt;'%/5X2S;7ZH)%:P=GVV&lt;'%!!!:&amp;&lt;H6N)$)!!!%!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
-		</Item>
-		<Item Name="Retrieve Index.ctl" Type="VI" URL="../Typedefs/Retrieve Index.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#F!!!!#Q!(1!-!!7%!"U!$!!&amp;C!!&gt;!!Q!"9Q!(1!-!!71!"U!$!!&amp;G!!F!!Q!#4D%!!!F!!Q!#4D)!!!F!!Q!#4D-!!!F!!Q!#4D1!!!&gt;!!Q!":Q"0!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-35G6U=GFF&gt;G5A37ZE:8AO9X2M!#2!5!!+!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E&amp;;7ZE:8A!!1!+!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
-		</Item>
-		<Item Name="Retrieve N Results.ctl" Type="VI" URL="../Typedefs/Retrieve N Results.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"P!!!!"1!*1!I!!EYR!!!*1!I!!EYS!!!*1!I!!EYT!!!*1!I!!EYU!!"$!0%!!!!!!!!!!A^-6H2P3629,GRW9WRB=X-75G6U=GFF&gt;G5A4C"3:8.V&lt;(2T,G.U&lt;!!51&amp;!!"!!!!!%!!A!$!5Y!!1!%!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
 	</Item>
 	<Item Name="TDMS" Type="Folder">
