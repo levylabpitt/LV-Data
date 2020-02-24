@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2020-01-21 11:55:17" Modified_Date="2020-01-22 17:18:18" Creator="Patrick Irvin" Comments="" ID="a7129654cae94bef6700a03d306005f6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-21 11:55:17" Modified_Date="2020-02-24 17:05:35" Creator="Patrick Irvin" Comments="" ID="a7cb94231c906a8ea939cf6c428a5ae1">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>2.8.0.10</Library_Version>
+    <Library_Version>2.8.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Igor\LVtoITX\VIs</Library_Output_Folder>
@@ -19,16 +19,16 @@
     <Package_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.3.9</External_Dependencies>
-      <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.0.0.1</External_Dependencies>
-      <External_Dependencies>levylab_lib_ibwtolv &gt;= 1.0.1.3</External_Dependencies>
+      <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.0.1.2</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_dictionary &gt;= 4.0.0.4</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.3.9</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_graph_utilities-2.0.0.1</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_ibwtolv-1.0.1.3</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_graph_utilities-2.0.1.2</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_dictionary-4.0.0.4</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
@@ -49,14 +49,9 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[2.8.0.9]
-New APIs for reading TDMS files:
-- Read TDMS Wavenames into Rings.vi (reads TDMS channel names and populates ring control(s)
-- Read TDMS XYN.vi (read three waves X,Y,N from TDMS file or folder of TDMS files)
-
-Igor Graph VIs
-- LV to ITX Graph.vi renamed LV to Igor Graph (UI).vi. UI that lets user copy data and write ITX file for loading into Igor
-- Intensity Graph to Igor Graph.vi and XY Graph to Igor Graph.vi: call as subVI with graph reference to write ITX files</Release_Notes>
+      <Release_Notes>[2.8.1.11]
+Bug fix:
+- Variant to Array.vi will now convert Cluster of Array/DBL to Array</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -137,15 +132,6 @@ Igor Graph VIs
       </Namespace_Overrides>
       <Exclusions>
         <Path>LV to ITX.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Tests/Test Read Speed.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Tests/Test Write Speed.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>HDF5</Path>
       </Exclusions>
       <Exclusions>
         <Path>HELP/ALL.vi</Path>
@@ -403,7 +389,7 @@ Igor Graph VIs
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B17D9E2DA4C885610F7AF116B1272F0</GUID>
+      <GUID>CBC77639C69CF4BF2114299F951A06E1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -564,7 +550,7 @@ Igor Graph VIs
         <Path>..\src\API\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13F4714DAE3ACBF39E6BAA2D7A367263</GUID>
+      <GUID>0DF35F48C3B7A800C58753A46DC68879</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -641,7 +627,7 @@ Igor Graph VIs
         <Path>..\src\Examples\TDMS Read Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24D46C3FBF90FE22A4035BAA497768F6</GUID>
+      <GUID>27F49282103011554CB29FF5015AEFDF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -704,7 +690,7 @@ Igor Graph VIs
         <Path>..\src\Graph\XY Graph to Igor Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4790A653E1D6DC43EACD91C397EAEABF</GUID>
+      <GUID>C17A995E918D0C6ECD60463AAAE78898</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -921,7 +907,7 @@ Igor Graph VIs
         <Path>..\src\Main\LV to ITX R+coord.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E86CF565597E501138BC960DB97AFC1</GUID>
+      <GUID>DE700AEF29609D3B90AEB7C1C0144025</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1068,7 +1054,7 @@ Igor Graph VIs
         <Path>..\src\TDMS\ITX Folder to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>174381890431CBFC4CF285513E84F843</GUID>
+      <GUID>92479EAC6CD34B1A8F3B69B5D85C83BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1103,7 +1089,7 @@ Igor Graph VIs
         <Path>..\src\Tests\Test TDMS Read Speed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E46659A21B5F75638B9B8E7D0D04BA8</GUID>
+      <GUID>56BE22B1C7113228C17F6DC203C75E8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1516,7 +1502,7 @@ Igor Graph VIs
         <Path>..\src\util\WavenameLengthDialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4373C57CAA2A1FA12806FF33D9031C28</GUID>
+      <GUID>338DC721FB1A3E7ABBBBFA54C54591EB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
