@@ -194,7 +194,6 @@
 				<Item Name="WDT Waveform to XY Pairs CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CXT.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="WavenameLengthDialog.vi" Type="VI" URL="../util/WavenameLengthDialog.vi"/>
 			<Item Name="CheckWavenameLength.vi" Type="VI" URL="../util/CheckWavenameLength.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
