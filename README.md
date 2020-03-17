@@ -10,11 +10,11 @@ Unless otherwise noted, all software is written with LabVIEW. Please install usi
 
 ## Usage
 
-Please contact [Patrick Irvin](mailto:p.irvin@levylab.org)
+Please contact [Patrick Irvin](https://github.com/ciozi137)
 
 ## Contributing
 
-Please contact [Patrick Irvin](mailto:p.irvin@levylab.org)
+Please contact [Patrick Irvin](https://github.com/ciozi137)
 
 ## License
 
