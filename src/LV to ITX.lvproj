@@ -31,8 +31,12 @@
 				<Item Name="Jeremy Example.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.vi"/>
 				<Item Name="Magic.vi" Type="VI" URL="../Tests/Jeremy Examples/Magic.vi"/>
 			</Item>
-			<Item Name="Test Increment File Name.vi" Type="VI" URL="../Tests/Test Increment File Name.vi"/>
 			<Item Name="Test TDMS Read Speed.vi" Type="VI" URL="../Tests/Test TDMS Read Speed.vi"/>
+			<Item Name="Duplicate Files.vi" Type="VI" URL="../Tests/Duplicate Files.vi"/>
+			<Item Name="Performance Tests.vi" Type="VI" URL="../Tests/Performance Tests.vi"/>
+			<Item Name="Unit Tests.vi" Type="VI" URL="../Tests/Unit Tests.vi"/>
+			<Item Name="Test Read Speed.vi" Type="VI" URL="../Tests/Test Read Speed.vi"/>
+			<Item Name="Test Write Speed.vi" Type="VI" URL="../Tests/Test Write Speed.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="TDMS Read Example.vi" Type="VI" URL="../Examples/TDMS Read Example.vi"/>
@@ -234,6 +238,14 @@
 				<Item Name="WDT Waveform to XY Pairs CSG.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CSG.vi"/>
 				<Item Name="WDT Waveform to XY Pairs EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs EXT.vi"/>
 				<Item Name="WDT Waveform to XY Pairs CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CXT.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="lib_path.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/lib_path.vi"/>
+				<Item Name="H5Equery.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/H5Equery.vi"/>
+				<Item Name="hid_t.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/hid_t.ctl"/>
+				<Item Name="H5F.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/file/H5F.lvlib"/>
+				<Item Name="rel_path.vi" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/rel_path.vi"/>
+				<Item Name="h5o_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/h5o_type.ctl"/>
+				<Item Name="H5G.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/group/H5G.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
