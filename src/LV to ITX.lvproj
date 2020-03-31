@@ -15,7 +15,32 @@
 			<Item Name="LVtoITX.vipb" Type="Document" URL="../../build support/LVtoITX.vipb"/>
 			<Item Name="LVtoITX.vipc" Type="Document" URL="../../build support/LVtoITX.vipc"/>
 		</Item>
-		<Item Name="LVtoITX.lvclass" Type="LVClass" URL="../LVtoITX.lvclass"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Jeremy Examples" Type="Folder">
+				<Item Name="FrontPanelRecorder.vit" Type="VI" URL="../Tests/Jeremy Examples/FrontPanelRecorder.vit"/>
+				<Item Name="Jeremy Example.000000.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000000.vi"/>
+				<Item Name="Jeremy Example.000001.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000001.vi"/>
+				<Item Name="Jeremy Example.000002.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000002.vi"/>
+				<Item Name="Jeremy Example.000003.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000003.vi"/>
+				<Item Name="Jeremy Example.000004.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000004.vi"/>
+				<Item Name="Jeremy Example.000005.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000005.vi"/>
+				<Item Name="Jeremy Example.000006.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000006.vi"/>
+				<Item Name="Jeremy Example.000007.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000007.vi"/>
+				<Item Name="Jeremy Example.000008.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000008.vi"/>
+				<Item Name="Jeremy Example.000009.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000009.vi"/>
+				<Item Name="Jeremy Example.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.vi"/>
+				<Item Name="Magic.vi" Type="VI" URL="../Tests/Jeremy Examples/Magic.vi"/>
+			</Item>
+			<Item Name="Test Increment File Name.vi" Type="VI" URL="../Tests/Test Increment File Name.vi"/>
+			<Item Name="Test TDMS Read Speed.vi" Type="VI" URL="../Tests/Test TDMS Read Speed.vi"/>
+		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="TDMS Read Example.vi" Type="VI" URL="../Examples/TDMS Read Example.vi"/>
+			<Item Name="DAT Example.vi" Type="VI" URL="../Examples/DAT Example.vi"/>
+			<Item Name="ITX Example.vi" Type="VI" URL="../Examples/ITX Example.vi"/>
+			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
+		</Item>
+		<Item Name="LV to ITX.lvclass" Type="LVClass" URL="../LV to ITX/LV to ITX.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -64,6 +89,23 @@
 				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
 				<Item Name="Number to String.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Number to String.vi"/>
+				<Item Name="MGI Get VI Control Ref[].vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get VI Control Ref[].vi"/>
+				<Item Name="ClassID Names Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/ClassID Names Enum__ogtk.ctl"/>
+				<Item Name="MGI VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference.vi"/>
+				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
+				<Item Name="MGI Current VI&apos;s Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Current VI&apos;s Reference.vi"/>
+				<Item Name="MGI Top Level VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Top Level VI Reference.vi"/>
+				<Item Name="MGI Level&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Level&apos;s VI Reference.vi"/>
+				<Item Name="Set Control Value {Variant}__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Set Control Value {Variant}__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -194,7 +236,6 @@
 				<Item Name="WDT Waveform to XY Pairs CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CXT.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="CheckWavenameLength.vi" Type="VI" URL="../util/CheckWavenameLength.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
