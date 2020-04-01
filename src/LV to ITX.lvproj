@@ -18,25 +18,18 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Jeremy Examples" Type="Folder">
 				<Item Name="FrontPanelRecorder.vit" Type="VI" URL="../Tests/Jeremy Examples/FrontPanelRecorder.vit"/>
-				<Item Name="Jeremy Example.000000.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000000.vi"/>
-				<Item Name="Jeremy Example.000001.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000001.vi"/>
-				<Item Name="Jeremy Example.000002.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000002.vi"/>
-				<Item Name="Jeremy Example.000003.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000003.vi"/>
-				<Item Name="Jeremy Example.000004.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000004.vi"/>
-				<Item Name="Jeremy Example.000005.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000005.vi"/>
-				<Item Name="Jeremy Example.000006.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000006.vi"/>
-				<Item Name="Jeremy Example.000007.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000007.vi"/>
-				<Item Name="Jeremy Example.000008.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000008.vi"/>
-				<Item Name="Jeremy Example.000009.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.000009.vi"/>
-				<Item Name="Jeremy Example.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.vi"/>
 				<Item Name="Magic.vi" Type="VI" URL="../Tests/Jeremy Examples/Magic.vi"/>
+				<Item Name="Jeremy Example.vi" Type="VI" URL="../Tests/Jeremy Examples/Jeremy Example.vi"/>
+				<Item Name="VI Example.vi" Type="VI" URL="../Tests/Jeremy Examples/VI Example.vi"/>
+				<Item Name="Read VI Data File.vi" Type="VI" URL="../Tests/Jeremy Examples/Read VI Data File.vi"/>
+				<Item Name="Write VI Data File.vi" Type="VI" URL="../Tests/Jeremy Examples/Write VI Data File.vi"/>
 			</Item>
 			<Item Name="Test TDMS Read Speed.vi" Type="VI" URL="../Tests/Test TDMS Read Speed.vi"/>
 			<Item Name="Duplicate Files.vi" Type="VI" URL="../Tests/Duplicate Files.vi"/>
-			<Item Name="Performance Tests.vi" Type="VI" URL="../Tests/Performance Tests.vi"/>
 			<Item Name="Unit Tests.vi" Type="VI" URL="../Tests/Unit Tests.vi"/>
-			<Item Name="Test Read Speed.vi" Type="VI" URL="../Tests/Test Read Speed.vi"/>
+			<Item Name="Performance Tests.vi" Type="VI" URL="../Tests/Performance Tests.vi"/>
 			<Item Name="Test Write Speed.vi" Type="VI" URL="../Tests/Test Write Speed.vi"/>
+			<Item Name="Test Read Speed.vi" Type="VI" URL="../Tests/Test Read Speed.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="TDMS Read Example.vi" Type="VI" URL="../Examples/TDMS Read Example.vi"/>
@@ -45,6 +38,7 @@
 			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
 		</Item>
 		<Item Name="LV to ITX.lvclass" Type="LVClass" URL="../LV to ITX/LV to ITX.lvclass"/>
+		<Item Name="Data Save.lvclass" Type="LVClass" URL="../Data Save/Data Save.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
