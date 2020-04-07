@@ -37,8 +37,11 @@
 			<Item Name="ITX Example.vi" Type="VI" URL="../Examples/ITX Example.vi"/>
 			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
 		</Item>
-		<Item Name="LV to ITX.lvclass" Type="LVClass" URL="../LV to ITX/LV to ITX.lvclass"/>
-		<Item Name="Data Save.lvclass" Type="LVClass" URL="../Data Save/Data Save.lvclass"/>
+		<Item Name="Data.lvclass" Type="LVClass" URL="../Data/Data.lvclass"/>
+		<Item Name="Data.DAT.lvclass" Type="LVClass" URL="../Data.DAT/Data.DAT.lvclass"/>
+		<Item Name="Data.ITX.lvclass" Type="LVClass" URL="../Data.ITX/Data.ITX.lvclass"/>
+		<Item Name="Data.TDMS.lvclass" Type="LVClass" URL="../Data.TDMS/Data.TDMS.lvclass"/>
+		<Item Name="Data.HDF5.lvclass" Type="LVClass" URL="../Data.HDF5/Data.HDF5.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -246,6 +249,7 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="ITX to LV 2.1 1D.vi" Type="VI" URL="../Data.ITX/Main/ITX to LV 2.1 1D.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
