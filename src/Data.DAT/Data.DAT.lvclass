@@ -54,7 +54,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Read" Type="Folder">
 			<Item Name="Read DAT.vi" Type="VI" URL="../Read DAT.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$;W6Z!!J!5Q6W97RV:1"&amp;!0%!!!!!!!!!!AR%982B,GRW9WRB=X-82'FD&gt;'FP&lt;G&amp;S?3UN9WRV=X2F=CZD&gt;'Q!'%"1!!)!"1!'#7NF?3VW97RV:1!?1%!!!@````]!"R&amp;%982B)#B%;7.U;7^O98*Z+1!/1$$`````"5ZP&gt;'6T!".!!Q!.;'6B:'6S)'RF&lt;G&gt;U;!!31$,`````#5:J&lt;'5A5'&amp;U;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;1!]!!-!!-!"!!)!!1!#1!%!!I!#Q!-!!1!"!!%!Q!!?!!!$1A!!!!!!!!*!!!!!!!!!!E!!!!!!!!!#!!!!!I!!!!+!!!!!!!!!!!!!!!!!!!!!!%!$1!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$;W6Z!!J!5Q6W97RV:1"&amp;!0%!!!!!!!!!!AR%982B,GRW9WRB=X-82'FD&gt;'FP&lt;G&amp;S?3UN9WRV=X2F=CZD&gt;'Q!'%"1!!)!"1!'#7NF?3VW97RV:1!?1%!!!@````]!"R&amp;%982B)#B%;7.U;7^O98*Z+1!/1$$`````"5ZP&gt;'6T!".!!Q!.;'6B:'6S)'RF&lt;G&gt;U;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-P````]*2GFM:3"1982I!&amp;1!]!!-!!-!"!!)!!1!#1!%!!I!"!!,!!1!"!!-!Q!!?!!!$1A!!!!!!!!*!!!!!!!!!!E!!!!!!!!!#!!!!!!!!!!+!!!!!!!!!!!!!!!+!!!!!!%!$1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
