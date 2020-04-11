@@ -46,6 +46,7 @@
 			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
 		</Item>
 		<Item Name="Macros" Type="Folder">
+			<Item Name="Remove Empty and expand size 1.vi" Type="VI" URL="../Macros/Remove Empty and expand size 1.vi"/>
 			<Item Name="Compare Dictionaries.vi" Type="VI" URL="../Macros/Compare Dictionaries.vi"/>
 			<Item Name="Write Conversion Log File.vi" Type="VI" URL="../Macros/Write Conversion Log File.vi"/>
 			<Item Name="ITX Folder to HDF5.vi" Type="VI" URL="../Macros/ITX Folder to HDF5.vi"/>
