@@ -70,29 +70,7 @@
 			<Item Name="PQ.lvlps" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PQ.lvlps"/>
 			<Item Name="PQ.lvproj" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PQ.lvproj"/>
 		</Item>
-		<Item Name="Macros" Type="Folder">
-			<Item Name="Support" Type="Folder">
-				<Item Name="Write Conversion Log File.vi" Type="VI" URL="../Macros/Write Conversion Log File.vi"/>
-				<Item Name="Dictionary.Expand Array Size.vi" Type="VI" URL="../Macros/Dictionary.Expand Array Size.vi"/>
-				<Item Name="Dictionary.Add Time Values.vi" Type="VI" URL="../Macros/Dictionary.Add Time Values.vi"/>
-				<Item Name="Dictionary.Remove Empty.vi" Type="VI" URL="../Macros/Dictionary.Remove Empty.vi"/>
-				<Item Name="Dictionary.Compare.vi" Type="VI" URL="../Macros/Dictionary.Compare.vi"/>
-				<Item Name="Dictionary.Add File and Notes.vi" Type="VI" URL="../Macros/Dictionary.Add File and Notes.vi"/>
-				<Item Name="Dictionary.Split into DBL and String.vi" Type="VI" URL="../Macros/Dictionary.Split into DBL and String.vi"/>
-			</Item>
-			<Item Name="HDF5" Type="Folder">
-				<Item Name="ITX Folder to HDF5.vi" Type="VI" URL="../Macros/ITX Folder to HDF5.vi"/>
-				<Item Name="ITX to HDF5.vi" Type="VI" URL="../Macros/ITX to HDF5.vi"/>
-			</Item>
-			<Item Name="TDMS" Type="Folder">
-				<Item Name="ITX Folder to TDMS.vi" Type="VI" URL="../Macros/ITX Folder to TDMS.vi"/>
-				<Item Name="ITX to TDMS.vi" Type="VI" URL="../Macros/ITX to TDMS.vi"/>
-			</Item>
-			<Item Name="postgresSQL" Type="Folder">
-				<Item Name="ITX Folder to PG.vi" Type="VI" URL="../Macros/ITX Folder to PG.vi"/>
-				<Item Name="ITX to PG.vi" Type="VI" URL="../Macros/ITX to PG.vi"/>
-			</Item>
-		</Item>
+		<Item Name="Conversion.lvclass" Type="LVClass" URL="../Macros/Conversion.lvclass"/>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Data/Data.lvclass"/>
 		<Item Name="Data.DAT.lvclass" Type="LVClass" URL="../Data.DAT/Data.DAT.lvclass"/>
 		<Item Name="Data.ITX.lvclass" Type="LVClass" URL="../Data.ITX/Data.ITX.lvclass"/>
@@ -100,6 +78,7 @@
 		<Item Name="Data.HDF5.lvclass" Type="LVClass" URL="../Data.HDF5/Data.HDF5.lvclass"/>
 		<Item Name="Data.PG.lvclass" Type="LVClass" URL="../Data.PG/Data.PG.lvclass"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
+		<Item Name="Test Zip Methods.vi" Type="VI" URL="../Macros/Test Zip Methods.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -420,6 +399,11 @@
 				<Item Name="List Directory Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory Recursive__ogtk.vi"/>
 				<Item Name="ZLIB Compress Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Compress Directory__ogtk.vi"/>
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
+				<Item Name="MGI Union and Intersection.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Union and Intersection.vi"/>
+				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
+				<Item Name="MGI SZL Open Options.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Zip/MGI SZL Open Options.ctl"/>
+				<Item Name="MGI SZL Zip Directory.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/Zip/MGI SZL Zip Directory.vi"/>
+				<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="/&lt;userlib&gt;/_MGI/File/Zip/Support Files/ICSharpCode.SharpZipLib.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -885,6 +869,13 @@
 				<Item Name="Librarian OK to Delete.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian OK to Delete.vi"/>
 				<Item Name="Copy In Or Out Of VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Copy In Or Out Of VI Library.vi"/>
 				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
+				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
