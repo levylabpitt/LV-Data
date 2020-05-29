@@ -46,31 +46,6 @@
 			<Item Name="ITX Example.vi" Type="VI" URL="../Examples/ITX Example.vi"/>
 			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
 		</Item>
-		<Item Name="drjdpowell-pq-labview-4a0e5122f073" Type="Folder">
-			<Item Name="Connection" Type="Folder">
-				<Item Name="PQ Connection.lvclass" Type="LVClass" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Connection/PQ Connection.lvclass"/>
-			</Item>
-			<Item Name="Examples" Type="Folder">
-				<Item Name="PQ Example Many INSERTs.vi" Type="VI" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Examples/PQ Example Many INSERTs.vi"/>
-				<Item Name="PQ Example SELECT Clusters.vi" Type="VI" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Examples/PQ Example SELECT Clusters.vi"/>
-				<Item Name="PQ Example SELECT, Parameters.vi" Type="VI" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Examples/PQ Example SELECT, Parameters.vi"/>
-			</Item>
-			<Item Name="Result" Type="Folder">
-				<Item Name="PQ Result.lvclass" Type="LVClass" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Result/PQ Result.lvclass"/>
-			</Item>
-			<Item Name="Support" Type="Folder">
-				<Item Name="PQ Support.lvlib" Type="Library" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Support/PQ Support.lvlib"/>
-			</Item>
-			<Item Name="Templates" Type="Folder">
-				<Item Name="SELECT Template.vi" Type="VI" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Templates/SELECT Template.vi"/>
-			</Item>
-			<Item Name=".hg_archival.txt" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/.hg_archival.txt"/>
-			<Item Name=".hgignore" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/.hgignore"/>
-			<Item Name="PostgreSQL Library.vipb" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PostgreSQL Library.vipb"/>
-			<Item Name="PQ.aliases" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PQ.aliases"/>
-			<Item Name="PQ.lvlps" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PQ.lvlps"/>
-			<Item Name="PQ.lvproj" Type="Document" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/PQ.lvproj"/>
-		</Item>
 		<Item Name="Conversion.lvclass" Type="LVClass" URL="../Macros/Conversion.lvclass"/>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Data/Data.lvclass"/>
 		<Item Name="Data.DAT.lvclass" Type="LVClass" URL="../Data.DAT/Data.DAT.lvclass"/>
@@ -744,6 +719,9 @@
 				<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="/&lt;vilib&gt;/AWS Toolkit/IAM/NI_AWS_IAM.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="PQ Connection.lvclass" Type="LVClass" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Connection/PQ Connection.lvclass"/>
+			<Item Name="PQ Result.lvclass" Type="LVClass" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Result/PQ Result.lvclass"/>
+			<Item Name="PQ Support.lvlib" Type="Library" URL="../Data.PG/drjdpowell-pq-labview-4a0e5122f073/Support/PQ Support.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
