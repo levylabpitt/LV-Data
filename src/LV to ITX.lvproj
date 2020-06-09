@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -80,10 +80,6 @@
 		<Item Name="Data.PG.lvclass" Type="LVClass" URL="../Data.PG/Data.PG.lvclass"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../Data.ITX/ITX Commands/ITX Commands.lvclass"/>
-		<Item Name="grid--enum.ctl" Type="VI" URL="../Data.ITX/ITX Commands/typedefs/grid--enum.ctl"/>
-		<Item Name="log--enum.ctl" Type="VI" URL="../Data.ITX/ITX Commands/typedefs/log--enum.ctl"/>
-		<Item Name="textbox_anchorcolumn--enum.ctl" Type="VI" URL="../Data.ITX/ITX Commands/typedefs/textbox_anchorcolumn--enum.ctl"/>
-		<Item Name="textbox_anchorrow--enum.ctl" Type="VI" URL="../Data.ITX/ITX Commands/typedefs/textbox_anchorrow--enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -604,6 +600,7 @@
 				<Item Name="WDT Waveform to XY Pairs CSG.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CSG.vi"/>
 				<Item Name="WDT Waveform to XY Pairs EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs EXT.vi"/>
 				<Item Name="WDT Waveform to XY Pairs CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CXT.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../../../graph_utilities/src/graph_utilities.lvclass"/>
@@ -611,6 +608,7 @@
 			<Item Name="Increment Filename.vi" Type="VI" URL="../../../file_utilities/src/Increment Filename.vi"/>
 			<Item Name="Number to String.vi" Type="VI" URL="../../../file_utilities/src/Number to String.vi"/>
 			<Item Name="Is String Number.vi" Type="VI" URL="../../../file_utilities/src/Support/Is String Number.vi"/>
+			<Item Name="Commands to ITX.vi" Type="VI" URL="../Data.ITX/util/Commands to ITX.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
