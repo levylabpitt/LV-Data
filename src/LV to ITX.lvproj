@@ -55,6 +55,7 @@
 		<Item Name="Data.S3.lvclass" Type="LVClass" URL="../Data.S3/Data.S3.lvclass"/>
 		<Item Name="Data.PG.lvclass" Type="LVClass" URL="../Data.PG/Data.PG.lvclass"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="../Tests/Example Data/vi stUFF/Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
