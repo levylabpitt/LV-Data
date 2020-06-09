@@ -384,9 +384,9 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="LV to ITX 2D AutoPlot.vi" Type="VI" URL="../LV to ITX 2D AutoPlot.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'!!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-P````]%:GFM:1!!$E!Q`````Q6/&lt;X2F=Q!31$$`````#8&gt;B&gt;G6O97VF=Q!;1%!!!@````]!"QR9,&amp;EM7C"-97*F&lt;(-!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!I!"UZV&lt;76S;7-!'E"!!!,``````````Q!+#$*%)%&amp;S=G&amp;Z!!!91%!!!@````]!#AJ9)$&amp;%)%&amp;S=G&amp;Z!!!91%!!!@````]!#AJ:)$&amp;%)%&amp;S=G&amp;Z!!!A1&amp;!!!Q!,!!Q!$2)S2#QA7#QA73!I1WRV=X2F=CE!!!Z!-P````]%='&amp;U;!!!6!$Q!!Q!!Q!%!!1!"1!'!!1!#!!%!!E!"!!/!!]$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!##!!!!!!!!!))!!!!!!!!!!I!!!!!!!!!#!!!!!I!!!!!!1!1!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'!!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-P````]%:GFM:1!!$E!Q`````Q6/&lt;X2F=Q!31$$`````#8&gt;B&gt;G6O97VF=Q!;1%!!!@````]!"QR9,&amp;EM7C"-97*F&lt;(-!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!.1!I!"UZV&lt;76S;7-!'E"!!!,``````````Q!+#$*%)%&amp;S=G&amp;Z!!!91%!!!@````]!#AJ9)$&amp;%)%&amp;S=G&amp;Z!!!91%!!!@````]!#AJ:)$&amp;%)%&amp;S=G&amp;Z!!!A1&amp;!!!Q!,!!Q!$2)S2#QA7#QA73!I1WRV=X2F=CE!!!Z!-P````]%='&amp;U;!!!6!$Q!!Q!!Q!%!!1!"1!'!!1!#!!%!!E!"!!/!!]$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!##!!!!!!!!!))!!!!!!!!!!I!!!!!!!!!#!!!!!A!!!!!!1!1!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
