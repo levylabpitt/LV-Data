@@ -45,6 +45,7 @@
 			<Item Name="DAT Example.vi" Type="VI" URL="../Examples/DAT Example.vi"/>
 			<Item Name="ITX Example.vi" Type="VI" URL="../Examples/ITX Example.vi"/>
 			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
+			<Item Name="PostgreSQL EC2 Example.vi" Type="VI" URL="../Examples/PostgreSQL EC2 Example.vi"/>
 		</Item>
 		<Item Name="Conversion.lvclass" Type="LVClass" URL="../Macros/Conversion.lvclass"/>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Data/Data.lvclass"/>
