@@ -125,4 +125,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 	</Item>
+	<Item Name="Populate Tree Ctl from Bucket.vi" Type="VI" URL="../API/Populate Tree Ctl from Bucket.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,N!!!!'1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#!!Q`````Q!=1(!!#!!"!!1!1A!!$&amp;2S:75A1X2M)&amp;*F:A!!$%!Q`````Q.,:8E!&amp;%"5!!9.4'&amp;T&gt;#".&lt;W2J:GFF:!!/1$$`````"%6597=!!!N!#!!%5WF[:1!!8Q$R!!!!!!!!!!)04EF@16&gt;48V-T,GRW&lt;'FC%6.U&lt;X*B:W5A1WRB=X-O9X2M!$6!&amp;A!##&amp;.515Z%16*%%F*&amp;2&amp;6$252@5E6%65Z%15Z$71!.5X2P=G&amp;H:3"$&lt;'&amp;T=Q!-1$$`````!EF%!!!71$$`````$%2J=X"M98EA4G&amp;N:1!!.A$R!!!!!!!!!!)04EF@16&gt;48V-T,GRW&lt;'FC#5^X&lt;G6S,G.U&lt;!!51&amp;!!!A!,!!Q&amp;4X&gt;O:8)!31$R!!!!!!!!!!)04EF@16&gt;48V-T,GRW&lt;'FC%E^C;G6D&gt;#"$&lt;WZU:7ZU,G.U&lt;!!?1&amp;!!"A!'!!=!#!!*!!I!$1&gt;$&lt;WZU:7ZU!"Z!1!!"`````Q!/%5^C;G6D&gt;(-A;7YA9H6D;W6U!#:!=!!?!!!2$U2B&gt;'%O5T-O&lt;(:D&lt;'&amp;T=Q!,2'&amp;U93Z4-S"P&gt;81!%%!Q`````Q:4&gt;(*J&lt;G=!!"R!1!!"`````Q!2$U.P&lt;7VP&lt;C"1=G6G;8BF=Q!%!!!!)%!S`````R&gt;Q982I)(2P)'&amp;X=S"D=G6E:7ZU;7&amp;M=Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-0````],1H6D;W6U)'ZB&lt;75!)E"Q!"Y!!"%02'&amp;U93Z4-SZM&gt;G.M98.T!!&gt;%982B,F-T!'%!]!!-!!-!"1!0!"!!%A!4!"-!&amp;!!6!!5!&amp;A!8!Q!!?!!!#1!!!!E!!!!*!!!!$1M!!!E!!!!!!!!!!!!!!!A!!!!+!!!!#A!!!AA!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!"A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+	</Item>
 </LVClass>
