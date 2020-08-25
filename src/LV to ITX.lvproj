@@ -52,10 +52,9 @@
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Data/Data.lvclass"/>
 		<Item Name="Data.DAT.lvclass" Type="LVClass" URL="../Data.DAT/Data.DAT.lvclass"/>
 		<Item Name="Data.ITX.lvclass" Type="LVClass" URL="../Data.ITX/Data.ITX.lvclass"/>
-		<Item Name="Data.TDMS.lvclass" Type="LVClass" URL="../Data.TDMS/Data.TDMS.lvclass"/>
-		<Item Name="Data.PG.lvclass" Type="LVClass" URL="../Data.PG/Data.PG.lvclass"/>
-		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../Data.ITX/ITX Commands/ITX Commands.lvclass"/>
+		<Item Name="Data.TDMS.lvclass" Type="LVClass" URL="../Data.TDMS/Data.TDMS.lvclass"/>
+		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -473,6 +472,8 @@
 				<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="/&lt;userlib&gt;/_MGI/File/Zip/Support Files/ICSharpCode.SharpZipLib.dll"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 				<Item Name="MGI Union and Intersection.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Union and Intersection.vi"/>
+				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
+				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -695,9 +696,12 @@
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
+				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../../../graph_utilities/src/graph_utilities.lvclass"/>
+			<Item Name="Data.PG.lvclass" Type="LVClass" URL="../Data.PG/Data.PG.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
