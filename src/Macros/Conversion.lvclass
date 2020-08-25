@@ -26,7 +26,6 @@
 	<Item Name="Conversion.ctl" Type="Class Private Data" URL="Conversion.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="postgresSQL" Type="Folder"/>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Dictionary.Add File and Notes.vi" Type="VI" URL="../Support/Dictionary.Add File and Notes.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#`!!!!#!!%!!!!$%!Q`````Q.L:8E!#E"4"8:B&lt;(6F!%5!]1!!!!!!!!!#$%2B&gt;'%O&lt;(:D&lt;'&amp;T=R&gt;%;7.U;7^O98*Z,3VD&lt;(6T&gt;'6S,G.U&lt;!!91&amp;!!!A!"!!)*;W6Z,8:B&lt;(6F!"B!1!!"`````Q!$#E2J9X2J&lt;WZB=HE!!!Z!-0````]&amp;4G^U:8-!$E!S`````Q21982I!!!E!0!!"!!!!!1!"1!'!A!!+!!!!!!!!!E!!!))!!!!#!!!!!!"!!=!!!!!</Property>
