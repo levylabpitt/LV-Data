@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-21 11:55:17" Modified_Date="2020-08-26 12:13:37" Creator="Patrick Irvin" Comments="" ID="d5b60bab9204d7dac76f37423d3a68d6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-01-21 11:55:17" Modified_Date="2020-09-24 15:25:12" Creator="Patrick Irvin" Comments="" ID="3a55f0cedd8fe846c3d7f91c04f8f064">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>3.0.0.3</Library_Version>
+    <Library_Version>3.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -51,15 +51,12 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.0.0]
+      <Release_Notes>[3.0.1]
 ---&gt; beta release! This is a major rewrite; code is still being tested and examples are being written &lt;---
-- DATA.lvclass parent class
-- Supports DAT (TSV), ITX, TDMS files
-- Conversion utilities for going between filetypes
-- Refactored DAT and ITX code
-- ITX class includes generalized support for embedding macro commands into ITX file
-- New TDMS capabilities
-- Built with LV2016</Release_Notes>
+- Bug fixes in ITX codebase: Issues #29, #30, #31, #32, #33, #34, #35, #39
+- New commands:
+-- ModifyImage ctab will change the color table for an image plot
+-- ColorScale will create add color legend to an image plot</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -324,7 +321,7 @@
         <Path>..\src\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04DE03D6E7EE029474186A7F91B04D44</GUID>
+      <GUID>2D3DD13D245E4AF4D44CBB21A11F30D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -429,7 +426,7 @@
         <Path>..\src\Data\Data Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E638E12FBF34D65E080FBA6CB796300</GUID>
+      <GUID>EEBBA550143773AEEA283C149C89847E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -534,7 +531,7 @@
         <Path>..\src\Data.DAT\Write DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF31DB85389AF9FAA54D91B58BB7F7A9</GUID>
+      <GUID>20F218375FF3161D7363B5D15FB9C16F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -723,7 +720,7 @@
         <Path>..\src\Data.ITX\Read ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85E55F50714D5C0909A751A1D1713D32</GUID>
+      <GUID>90DF9CE4536860796B1720E68E405DAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -772,7 +769,7 @@
         <Path>..\src\Data.TDMS\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B04E47519F313DA9D5C2DFC1D465DCDD</GUID>
+      <GUID>4FFFBA19B903A4D3F0EF95C05C761AD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -863,7 +860,7 @@
         <Path>..\src\Examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56307CA90EB6BDF79838A08D503815F9</GUID>
+      <GUID>EB506BC1E288AFDB45BC1E8B2F98FC00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -926,7 +923,7 @@
         <Path>..\src\Macros\Convert Experiment Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F003F75850C001B3EE348E6D85E982B</GUID>
+      <GUID>D8698C0AE9A5B3125FB894339CEE9025</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1003,7 +1000,7 @@
         <Path>..\src\Tests\Test Zip Methods.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FF45F8EACCF723D7F49858C1CECFE99</GUID>
+      <GUID>EEA49D951AF40A96D236C9953D4F5084</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1262,7 +1259,7 @@
         <Path>..\src\Data\API\XY-Data to Dictionary.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1AEF9286F23BD21712BBA0EF80DE41F</GUID>
+      <GUID>12C4F32FB32ADC6E94FF3D2AD49F95C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1353,7 +1350,7 @@
         <Path>..\src\Data\Framework (For Override)\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64BDE421577FEE63AFEA86AF8F76F027</GUID>
+      <GUID>2706F3E4FF894297DB49E2706EEBA763</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1388,7 +1385,7 @@
         <Path>..\src\Data\Private\Format Path and Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1805892B859390CB023AB74AA138AD4F</GUID>
+      <GUID>AF81BDC9DFB37C76553B27B075A33573</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1493,7 +1490,7 @@
         <Path>..\src\Data\Protected\Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDCF3036A1DDAD2A46FA189EC4BD54DE</GUID>
+      <GUID>4FC273D53C24D9FB6573772DADA9A632</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1542,7 +1539,7 @@
         <Path>..\src\Data.DAT\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FD0D433C5060F679929C3AB6A119791</GUID>
+      <GUID>1DAA44F257AA0D1EB15D3B3F8C82DBE6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1577,7 +1574,7 @@
         <Path>..\src\Data.DAT\private\Parse DAT String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE792D68D64AFC345D104FED6C2F9F27</GUID>
+      <GUID>D207DDEA4D14115C1BAF7DED498119C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1654,7 +1651,7 @@
         <Path>..\src\Data.ITX\Graph\XY Graph to Igor Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B362030D2970C083482C3BEE502E109</GUID>
+      <GUID>C7F406ABE916A2FA72C4CA48A1F77419</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1717,7 +1714,7 @@
         <Path>..\src\Data.ITX\ITX Commands\Format ITX Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB1AE2D3A803DCBC3A0111C3B885C1BA</GUID>
+      <GUID>0CB16E0E6D8A79672E1BEBA6CB57FFE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1822,7 +1819,7 @@
         <Path>..\src\Data.ITX\Main\Write ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AF79300478B4340EB0306688B4EA946</GUID>
+      <GUID>5A777AFCFE4A00B6491267FF15B6B1C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1871,7 +1868,7 @@
         <Path>..\src\Data.ITX\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>916AC0FB4F5D8366209A56225E6AADD6</GUID>
+      <GUID>6C047FB6A829E347DDABBD65D759C2F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1920,7 +1917,7 @@
         <Path>..\src\Data.ITX\private\Format Wavename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22C6B97DC4FE376398377034D7B77560</GUID>
+      <GUID>F37CDE7EF9D162955FB8713DACA5F8FE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2151,15 +2148,15 @@
         <Path>..\src\Data.ITX\util\XY Plot Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC9078003B4740AFC0F09B8B9A3462F4</GUID>
+      <GUID>4B861098AADC03F1195E553A41C55735</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
       <Name>API</Name>
       <View_Format>Icons</View_Format>
       <Size>
-        <Height_Row>3</Height_Row>
-        <Width_Col.>6</Width_Col.>
+        <Height_Row>4</Height_Row>
+        <Width_Col.>8</Width_Col.>
       </Size>
       <_256_Color_Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -2172,90 +2169,6 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Data.ITX\ITX Commands\API</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>AppendImage.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\AppendImage.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>AppendToGraph.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\AppendToGraph.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Commands to ITX.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\Commands to ITX.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Generate Command String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\Generate Command String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Label.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\Label.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Legend.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\Legend.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -2306,7 +2219,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>4</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph Log.vi</Path>
@@ -2320,7 +2233,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>5</Column>
+          <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph mirror.vi</Path>
@@ -2334,7 +2247,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>6</Column>
+          <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph prescaleExp.vi</Path>
@@ -2343,15 +2256,15 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>ModifyGraph rgb.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>AppendToGraph.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>1</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph rgb.vi</Path>
+        <Path>..\src\Data.ITX\ITX Commands\API\AppendToGraph.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2361,11 +2274,95 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
-          <Column>2</Column>
+          <Row>2</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph width.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>ModifyGraph rgb.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>8</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\ModifyGraph rgb.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>AppendImage.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\AppendImage.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>ModifyImage ctab.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\ModifyImage ctab.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Generate Command String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>8</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\Generate Command String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Label.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\Label.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>ColorScale.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>8</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\ColorScale.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2375,14 +2372,28 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
-          <Column>3</Column>
+          <Row>1</Row>
+          <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\Data.ITX\ITX Commands\API\Textbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8633155A8FB784260BBD6FE71535CC50</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Legend.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Data.ITX\ITX Commands\API\Legend.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5D47A807162FEF525BEBB6E679911425</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2417,7 +2428,7 @@
         <Path>..\src\Data.ITX\ITX Commands\private\Commands to ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B0FA5A64A428541839CA968FDF48414</GUID>
+      <GUID>84B9B9804A0C88E2572FCAC16EA204EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2494,7 +2505,7 @@
         <Path>..\src\Data.TDMS\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A8241D2D7F42AF1989E052B433E6A49</GUID>
+      <GUID>4B82E7A15EB5A068C69A25C530289A4A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2613,7 +2624,7 @@
         <Path>..\src\Data.TDMS\Private\Write TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BB0741B47369E2DBC4EB7D0D4A9C8FD</GUID>
+      <GUID>5EC577D769875F54429659A19296BE6C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2648,7 +2659,7 @@
         <Path>..\src\Macros\ITX\File to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EF4CA445D77B809EC9D784E89427F75</GUID>
+      <GUID>FC29CD29D18779F33F2D736FE8AECC21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2767,7 +2778,7 @@
         <Path>..\src\Macros\Support\Write Experiment to TDMS Conversion Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2276F0F3D2D34B3D71829781E800748</GUID>
+      <GUID>3BDADC395D7674FB2E68E3E55E4DD28B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2872,7 +2883,7 @@
         <Path>..\src\Tests\Jeremy Examples\Write VI Data File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA8A22330EB8E02A789591D34F8AF4B6</GUID>
+      <GUID>D3E39CFA361147545124F10F7D641EFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2977,7 +2988,7 @@
         <Path>..\src\Tests\Performance Tests\Test Write Speed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CD5C7BC8F8EFFFAD28ACDE52D7B0DBE</GUID>
+      <GUID>79CCCC18C6AB72B080F86A80911D0B9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -3026,7 +3037,7 @@
         <Path>..\src\Tests\Unit Tests\Unit Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55ED7462D5AA7164728BDC0481AA285F</GUID>
+      <GUID>AA6C3B3E9D58C029175054B1CAACF954</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
