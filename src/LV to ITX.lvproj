@@ -40,6 +40,7 @@
 				<Item Name="Test Data Dictionary API.vi" Type="VI" URL="../Tests/Unit Tests/Test Data Dictionary API.vi"/>
 			</Item>
 			<Item Name="Test Zip Methods.vi" Type="VI" URL="../Tests/Test Zip Methods.vi"/>
+			<Item Name="Test Write.vi" Type="VI" URL="../Tests/Test Write.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Tree.vi" Type="VI" URL="../Examples/Tree.vi"/>
