@@ -1,6 +1,11 @@
-# LV to ITX
+# LV-Data
 
-Collection of LabVIEW VIs to write and read Igor Text Files (\*.itx) and text-based spreadsheet data files (\*.dat).
+Collection of LabVIEW VIs to read and write lab data. Supported formats:
+- DAT: text-based spreadsheet data files (\*.dat).
+- ITX: Igor Text Files (\*.itx)
+- TDMS
+- postgreSQL
+- AWS S3
 
 https://www.makeareadme.com/
 
