@@ -281,8 +281,8 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
-		<Item Name="GetPSQL Datatype.vi" Type="VI" URL="../dev/GetPSQL Datatype.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#Q!%!!!!'%!Q`````QZ(:81[2W6U)&amp;.U=GFO:Q!!-E"Q!"Y!!"=64&amp;9N2'&amp;U93Z12V.24#ZM&gt;G.M98.T!"&amp;-6CV%982B,F"(5V&amp;-)'^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````]'1W^M&gt;7VO!!!/1$$`````"62B9GRF!$*!=!!?!!!8&amp;5R7,52B&gt;'%O5%&gt;455QO&lt;(:D&lt;'&amp;T=Q!14&amp;9N2'&amp;U93Z12V.24#"J&lt;A!!91$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!9!"Q!)!!E$!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!I!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+		<Item Name="Switch Columns between Test tables.vi" Type="VI" URL="../dev/Switch Columns between Test tables.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%H!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/2W6U/E&gt;F&gt;#"4&gt;(*J&lt;G=!!"B!1!!#``````````]!"1:3:8.V&lt;(1!!"2!-0````]+4G6X)&amp;2B9GRF)!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51$$`````#E^M:#"$&lt;WRV&lt;7Y!!"*!-0````]*4WRE)&amp;2B9GRF!&amp;1!]!!-!!-!"!!'!!1!"!!%!!1!"Q!)!!E!#A!%!Q!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!#!!!!!A!!!!!!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -639,5 +639,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074274816</Property>
+	</Item>
+	<Item Name="Get PGSQL datatype.vi" Type="VI" URL="../dev/Get PGSQL datatype.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/2W6U/E&gt;F&gt;#"4&gt;(*J&lt;G=!!$*!=!!?!!!8&amp;5R7,52B&gt;'%O5%&gt;455QO&lt;(:D&lt;'&amp;T=Q!24&amp;9N2'&amp;U93Z12V.24#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"E.P&lt;(6N&lt;A!!$E!Q`````Q6597*M:1!S1(!!(A!!&amp;R6-6CV%982B,F"(5V&amp;-,GRW9WRB=X-!%%R7,52B&gt;'%O5%&gt;455QA;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>
