@@ -952,8 +952,6 @@
 				<Item Name="3494A183FEBB6A11205EA059762AB79BEmpty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BEmpty 2D Array (LVObject)__ogtk.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="libpq.dll" Type="Document" URL="../../../../../../Program Files (x86)/LevyLab/Database Viewer/data/libpq.dll"/>
-			<Item Name="Copy To code.vi" Type="VI" URL="../../../JPK/Lab projects/postgres/postgres work/Copy To code.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
