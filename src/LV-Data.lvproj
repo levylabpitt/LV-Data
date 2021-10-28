@@ -14,10 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="LVtoITX.vipb" Type="Document" URL="../../build support/LVtoITX.vipb"/>
-			<Item Name="LVtoITX.vipc" Type="Document" URL="../../build support/LVtoITX.vipc"/>
-			<Item Name="postgreSQL.vipb" Type="Document" URL="../../build support/postgreSQL.vipb"/>
-			<Item Name="postgreSQL.vipc" Type="Document" URL="../../build support/postgreSQL.vipc"/>
+			<Item Name="LV-Data.vipb" Type="Document" URL="../../build support/LV-Data.vipb"/>
+			<Item Name="LV-Data.vipc" Type="Document" URL="../../build support/LV-Data.vipc"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Jeremy Examples" Type="Folder">
