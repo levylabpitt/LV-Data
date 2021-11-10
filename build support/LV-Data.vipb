@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2021-11-04 22:47:46" Creator="Patrick Irvin" Comments="" ID="9bf0333c149ed46b866fae9fc9336319">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2021-11-10 12:15:05" Creator="Patrick Irvin" Comments="" ID="afadb2fed4ac4cf1942d8adb2f9b95dd">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>3.3.3.8</Library_Version>
+    <Library_Version>3.3.4.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -89,11 +89,11 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.3.3]
+      <Release_Notes>[3.3.4]
 LV-Data.PGSQL:
-- Fix bug in Get Paths Array UI.vi
-- Handle INSERT Error.vi displays more useful error dialog
-- Update Palette
+-Get Table Path and Get Column path moved into public scope
+- Rename Parse Path Name to Parse Path
+- Rename Parse Path to Path Variant to Path Array and move into private scope
 
 </Release_Notes>
     </Description>
@@ -394,7 +394,7 @@
         <Path>..\src\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD6F8251A24531BC7A045BF4976A73A8</GUID>
+      <GUID>DE62463F47F3631075CDF4AC32765FB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -485,7 +485,7 @@
         <Path>..\src\Examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5214C69C058DBB0F1442D4B96D1A3296</GUID>
+      <GUID>ADC6281C16CBECAF7ED905A8DCB71A44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -590,7 +590,7 @@
         <Path>..\src\LV-Data\Data Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5ABE5BE4489F105BC665A086BEE10C1</GUID>
+      <GUID>B999EC0C7AF9F4B43C60E9F11568A022</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -695,7 +695,7 @@
         <Path>..\src\LV-Data.DAT\Write DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E13EBC43480807933D0590A6E8A0CB5</GUID>
+      <GUID>C8388FF192995343091228DFF316618E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -884,7 +884,7 @@
         <Path>..\src\LV-Data.ITX\Read ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF0BF0A0D141D93D7415A9D42981CD44</GUID>
+      <GUID>6A15D132D6AF6586EA64F2BC2C90C64D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1003,7 +1003,7 @@
         <Path>..\src\LV-Data.PG\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53D60DD2C101DDAA79A3379DC8DF0592</GUID>
+      <GUID>F57069C7F66D81D9AE00DA3548EB5AD5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1066,7 +1066,7 @@
         <Path>..\src\LV-Data.S3\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7D9D5C1B2EE817B5B158F7320749DB5</GUID>
+      <GUID>D4D8E016A76AF8609D41C0027980583C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1129,7 +1129,7 @@
         <Path>..\src\LV-Data.TDMS\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C264F283884CE5274FA02D328A4A31D</GUID>
+      <GUID>D42E107011F5B9246DE4592B00766D99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1192,7 +1192,7 @@
         <Path>..\src\Macros\Convert Experiment Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FDDF02D4F71D2BF9F0E0AFDD7C3D4AC</GUID>
+      <GUID>613A58F4C59F43404D5FE9DE3DC721F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1283,7 +1283,7 @@
         <Path>..\src\Tests\Test Zip Methods.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1A4B0D968BB795EC2B9C4D0CAC342B6</GUID>
+      <GUID>1544093479F1C3AF122A34C8273F5EAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1542,7 +1542,7 @@
         <Path>..\src\LV-Data\API\XY-Data to Dictionary.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C7F35FEE9CBF1535B50202AF5A8655A</GUID>
+      <GUID>2611B5AD9E877C239AA521EE22B39942</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1633,7 +1633,7 @@
         <Path>..\src\LV-Data\Framework (For Override)\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71770948AC09D0AA55C9797CA3E80CBC</GUID>
+      <GUID>E3D6354D96C88A42F0DD020B8C1D173D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1668,7 +1668,7 @@
         <Path>..\src\LV-Data\Private\Format Path and Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7D239785C8E1FB70263460C27BE02DA</GUID>
+      <GUID>E7516FF2E88777DD9920326C3BAD725C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1773,7 +1773,7 @@
         <Path>..\src\LV-Data\Protected\Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF2A61D2D211A2F029D62516BE74E8F6</GUID>
+      <GUID>8984AA20D7D440813A88701655D3CB70</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1822,7 +1822,7 @@
         <Path>..\src\LV-Data.DAT\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D77D12583EC0F33C1966938E4EDEF0BA</GUID>
+      <GUID>0D1AB836EF34BB13623A957EBDF0711D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1857,7 +1857,7 @@
         <Path>..\src\LV-Data.DAT\private\Parse DAT String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F2F0D69B2641EA2F6C28987AD04B6B3</GUID>
+      <GUID>49A47E27D7D2B1CA7F682AD448F9C17A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1934,7 +1934,7 @@
         <Path>..\src\LV-Data.ITX\Graph\XY Graph to Igor Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B829D45CA6032B251CC9D74FBE57EEC</GUID>
+      <GUID>2AD911AE5F4DB3B3F7F347F72F00DCC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1997,7 +1997,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\Format ITX Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>306AE6269A61495F2BC9801DDE4D50EB</GUID>
+      <GUID>D51487EA103B6565AE4D538EF60C2FD8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2102,7 +2102,7 @@
         <Path>..\src\LV-Data.ITX\Main\Write ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8562A5D5745DF57A63BA36673A8335BF</GUID>
+      <GUID>DBAA9D3FF604BE693E8919144D6B1F66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2151,7 +2151,7 @@
         <Path>..\src\LV-Data.ITX\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D017C75E5DFF768A1CCD1A8863361429</GUID>
+      <GUID>F81F1167DA8CA958CF93016E1457FC13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2200,7 +2200,7 @@
         <Path>..\src\LV-Data.ITX\private\Format Wavename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CB3DEBFBE94A135FC051CAD7B50EFCF</GUID>
+      <GUID>3E913CF10D80A691977ECBA5A38D5622</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2431,7 +2431,7 @@
         <Path>..\src\LV-Data.ITX\util\XY Plot Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>436458D41AC99E785E8E2DA3C54123A9</GUID>
+      <GUID>5B49BEEDFCE13C948D02740F454CABD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2690,7 +2690,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\API\Textbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5A3897E5DC9EA6D669F2A7C883162CA</GUID>
+      <GUID>A531E5EEDCC4356AC5E0E90CE760D3D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2725,7 +2725,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\private\Commands to ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A352C6CAEF3C827389A0F26F306653D1</GUID>
+      <GUID>9D5199BBE2922EC1A69CF6D75481A035</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2802,14 +2802,14 @@
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1E7CCA0EC3C509CFA9B6A25F59354ED</GUID>
+      <GUID>16F7A7B6772B890F4DCDF2A2F48A65B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
       <Name>API</Name>
       <View_Format>Icons</View_Format>
       <Size>
-        <Height_Row>4</Height_Row>
+        <Height_Row>5</Height_Row>
         <Width_Col.>7</Width_Col.>
       </Size>
       <_256_Color_Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
@@ -2830,7 +2830,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2844,7 +2844,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2858,7 +2858,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2872,7 +2872,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2886,7 +2886,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2900,7 +2900,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2914,7 +2914,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2928,7 +2928,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2938,29 +2938,85 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Copy (File).vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>3</Column>
+          <Row>5</Row>
+          <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Parse path.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Copy (File).vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Path Name.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Read SQL.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>2</Column>
+          <Row>3</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\Private\Parse Path Name.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Read SQL.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Trace.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\API\Read Trace.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Traces.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\API\Read Traces.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Compare Previous INSERT.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\API\Compare Previous INSERT.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Copy (Data).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>7</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\API\Copy (Data).vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2980,48 +3036,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Copy (File).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Copy (File).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read SQL.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Read SQL.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Trace.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Read Trace.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -3036,15 +3050,29 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Column.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get Tables.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>5</Column>
+          <Row>2</Row>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Create Column.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Get Tables.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Table Path.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\API\Get Table Path.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -3054,7 +3082,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
+          <Row>2</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -3064,21 +3092,21 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Tables.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Get Column Path.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>3</Column>
+          <Row>2</Row>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Get Tables.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Get Column Path.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Traces.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Create Column.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -3086,38 +3114,24 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Read Traces.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Create Column.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Compare Previous INSERT.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse path.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>5</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Compare Previous INSERT.vi</Path>
+        <Path>..\src\LV-Data.PG\API\Parse path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Copy (Data).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\API\Copy (Data).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>5CBD032B230BD8D0A2F35C9C0848ECC2</GUID>
+      <GUID>7BEFBDF2B929F38959E107708AB8BE22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3180,7 +3194,7 @@
         <Path>..\src\LV-Data.PG\dev\Switch Columns between Test tables.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D6E246AE53A0E365DCBE8743215387C</GUID>
+      <GUID>DCBFE4177DB2FD2C9E5F40A3FE0A51A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3299,7 +3313,7 @@
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C051F252B3A92C9F15C3FA7644FA322F</GUID>
+      <GUID>19AD69DDBF0794F40D5C311ED6615E16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3435,20 +3449,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Column Path.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\Private\Get Column Path.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get Configuration.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -3486,20 +3486,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\LV-Data.PG\Private\Get Data Type Prefix.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Table Path.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\Private\Get Table Path.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -3712,7 +3698,7 @@
         <Path>..\src\LV-Data.PG\Private\Error Code.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E3B9C59A62543FCA608316125FADBCE</GUID>
+      <GUID>3349B55858C08B60F967408EF640BCBC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3803,7 +3789,7 @@
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>048BB736530A13309CD4F15B95784CA4</GUID>
+      <GUID>65642595C81E8C5C18A02F78E483BCB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3950,7 +3936,7 @@
         <Path>..\src\LV-Data.S3\API\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A78BE80A70EDA7A58BC8C235B6B3F39</GUID>
+      <GUID>B82EEFDC1B261DE42685647A54B446CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4027,7 +4013,7 @@
         <Path>..\src\LV-Data.S3\private\split object path to hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3774D80329F0093E5A68A7FF39089D61</GUID>
+      <GUID>28B989D455A96D8D144BF9BC8128D692</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4118,7 +4104,7 @@
         <Path>..\src\LV-Data.TDMS\API\Read TDMS XYN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B9E34D10274CBCF8D3A994A7C11482B</GUID>
+      <GUID>6C713E7FE929576449809D04573BE62C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4195,7 +4181,7 @@
         <Path>..\src\LV-Data.TDMS\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A9B3904BCC0153A6264CB8AC1F78D5CA</GUID>
+      <GUID>04A71540A8AC480E8B6D9D95D8132D1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4258,7 +4244,7 @@
         <Path>..\src\LV-Data.TDMS\Private\Write TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC5B172A57B52916736E5B42F9AF0FA9</GUID>
+      <GUID>954BBC24B37DFC102DA6E045478E47F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4293,7 +4279,7 @@
         <Path>..\src\Macros\ITX\File to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E99422F3A0B18558EE9ED32A5484ADED</GUID>
+      <GUID>39606AFF73058EB07DEC7CCE79CD3770</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4412,7 +4398,7 @@
         <Path>..\src\Macros\Support\Write Experiment to TDMS Conversion Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3237DA0314FE13BD34D8C4B2ED9B7F11</GUID>
+      <GUID>C1538D49865591580C2AC53EF3232C39</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4517,7 +4503,7 @@
         <Path>..\src\Tests\Jeremy Examples\Write VI Data File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB2B3C1A5B97B115DAD5EE22507744D1</GUID>
+      <GUID>BEED8ADBA435BCF8EDE2AEA5E8F33615</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4622,7 +4608,7 @@
         <Path>..\src\Tests\Performance Tests\Test Write Speed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6842313AE21E583C141D7E7BB331DD9</GUID>
+      <GUID>AB0A7800577E74249C5D8FDE8E650CC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4671,7 +4657,7 @@
         <Path>..\src\Tests\Unit Tests\Unit Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>207DD2ECD3DA46C504FA8D85A0A6966B</GUID>
+      <GUID>391764C8B21A1546D7AEA1E1B587C8CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
