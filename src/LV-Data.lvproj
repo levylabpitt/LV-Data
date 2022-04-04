@@ -41,6 +41,7 @@
 				<Item Name="Test Write ITX.vi" Type="VI" URL="../Tests/Test Write ITX.vi"/>
 				<Item Name="Test XY Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test XY Graph to ITX Graph.vi"/>
 			</Item>
+			<Item Name="Test Intensity Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test Intensity Graph to ITX Graph.vi"/>
 			<Item Name="Test Zip Methods.vi" Type="VI" URL="../Tests/Test Zip Methods.vi"/>
 			<Item Name="Test Write.vi" Type="VI" URL="../Tests/Test Write.vi"/>
 		</Item>
@@ -75,7 +76,6 @@
 			<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		</Item>
 		<Item Name="PQ Connection.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/PostgreSQL Library/Connection/PQ Connection.lvclass"/>
-		<Item Name="Test Intensity Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test Intensity Graph to ITX Graph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
