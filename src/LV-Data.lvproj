@@ -40,8 +40,8 @@
 				<Item Name="Test Data Dictionary API.vi" Type="VI" URL="../Tests/Unit Tests/Test Data Dictionary API.vi"/>
 				<Item Name="Test Write ITX.vi" Type="VI" URL="../Tests/Test Write ITX.vi"/>
 				<Item Name="Test XY Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test XY Graph to ITX Graph.vi"/>
+				<Item Name="Test Intensity Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test Intensity Graph to ITX Graph.vi"/>
 			</Item>
-			<Item Name="Test Intensity Graph to ITX Graph.vi" Type="VI" URL="../Tests/Test Intensity Graph to ITX Graph.vi"/>
 			<Item Name="Test Zip Methods.vi" Type="VI" URL="../Tests/Test Zip Methods.vi"/>
 			<Item Name="Test Write.vi" Type="VI" URL="../Tests/Test Write.vi"/>
 		</Item>
@@ -950,6 +950,11 @@
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
