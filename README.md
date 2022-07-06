@@ -1,11 +1,11 @@
-# LV-Data
+# LV-Data LabVIEW Data
 
 Collection of LabVIEW VIs to read and write lab data. Supported formats:
-- DAT: text-based spreadsheet data files (\*.dat).
+- TDMS: Technical Data Managment Solution (\*.tdms)
+- DAT: text-based spreadsheet data files (\*.dat)
 - ITX: Igor Text Files (\*.itx)
-- TDMS
-- postgreSQL
-- AWS S3
+- postgreSQL: database access
+- AWS S3: experimental support for uploading files to S3
 
 https://www.makeareadme.com/
 
