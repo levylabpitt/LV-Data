@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2022-06-27 14:01:49" Creator="Patrick Irvin" Comments="" ID="9f1dd3c82d0dac3c7be13db9fac10905">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2022-07-08 12:35:36" Creator="Patrick Irvin" Comments="" ID="b729a7483651cfdb31b46a9bb9acf0c9">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>3.4.0.2</Library_Version>
+    <Library_Version>3.4.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -92,7 +92,7 @@
       <Packager>Patrick Irvin</Packager>
       <URL/>
       <Release_Notes>[3.4.0]
-- Issue #90:
+- Issue #91:
   - Add support for Maps (Convert Dictionary to Map)
   - Add methods for getting Keys and Values from Dictionaries or Maps
   - Variant to Data methods are publicly scoped</Release_Notes>
@@ -422,7 +422,7 @@
         <Path>..\src\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>774FE44431E0C42EA6A4C580294ED79D</GUID>
+      <GUID>9B7BD30F797502B71AC61FDAF0638ADF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -513,7 +513,7 @@
         <Path>..\src\Examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15E3CEB2C929D346644D3242A31E0E76</GUID>
+      <GUID>94C97D3427288CDACB8A4BF4CC6E72B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -657,7 +657,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data\Protected\Variant to DBL Array.vi</Path>
+        <Path>..\src\LV-Data\API\Variant to DBL Array.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -671,7 +671,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data\Protected\Variant to String.vi</Path>
+        <Path>..\src\LV-Data\API\Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -685,10 +685,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\LV-Data\Protected\Populate Ring Text [].vi</Path>
+        <Path>..\src\LV-Data\API\Populate Ring Text [].vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9E4AE5FAC6563F9122BE61B0FEC2435</GUID>
+      <GUID>0B540ED8E5C5C69A701C98A4661FBE9B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -793,7 +793,7 @@
         <Path>..\src\LV-Data.DAT\Write DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DB33B49A328205AC9A703D8B0B4A830</GUID>
+      <GUID>920993C10A5547345FD23A06F2D06D81</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -968,7 +968,7 @@
         <Path>..\src\LV-Data.ITX\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>535DCC979725CC73EB6D956F897A6FEC</GUID>
+      <GUID>7B62B254DBB6606F0075DE9702BAD8BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1101,7 +1101,7 @@
         <Path>..\src\LV-Data.PG\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33C3626CC7A30306FD46DD69AB993974</GUID>
+      <GUID>CE7D199A815EDAB4D4E95984BF44C2B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1164,7 +1164,7 @@
         <Path>..\src\LV-Data.S3\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C86BCC76BFE5093D14C64AEC5DA5E13C</GUID>
+      <GUID>B04DE98D3A60E6801AEB28A92707BA89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1227,7 +1227,7 @@
         <Path>..\src\LV-Data.TDMS\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8120174C33B31B770E66B1B660144F9</GUID>
+      <GUID>F539FF03829CFAE36251443023BCE2B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1290,7 +1290,7 @@
         <Path>..\src\Macros\Convert Experiment Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5684FEF2ACC29CB80DF6F8DB0BC3823</GUID>
+      <GUID>2A3DEE289B5450CFD01619AA4E2AB383</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1507,7 +1507,7 @@
         <Path>..\src\LV-Data\API\Read Wavenames.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7ADF0B98D8A2EE077381B3AEE1C974C</GUID>
+      <GUID>5CDB056622647A6BBEB76C802DEB87A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1598,7 +1598,7 @@
         <Path>..\src\LV-Data\Framework (For Override)\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D2EE57B5263DC6B0245FCADBAAB4C72</GUID>
+      <GUID>F9295E65C00DFAE77CCF3AEF5B32AA63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1633,7 +1633,7 @@
         <Path>..\src\LV-Data\Private\Format Path and Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF71ADCD0D8FC52940B7912D0DA976BB</GUID>
+      <GUID>6E0B24B24F388A263A711928B31B4703</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1696,7 +1696,7 @@
         <Path>..\src\LV-Data\Protected\Replace Space with Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30A80808BC2F760DA11FD77A03C76167</GUID>
+      <GUID>B80AA4D8E843C901692EE131BD3FED80</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1745,7 +1745,7 @@
         <Path>..\src\LV-Data.DAT\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40139752D89EF34AD7FDF1975716C077</GUID>
+      <GUID>B200C1BB23FA201043BA741478CE1C6D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1780,7 +1780,7 @@
         <Path>..\src\LV-Data.DAT\private\Parse DAT String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89030B39D91F413BF9B552A36DF1EDB5</GUID>
+      <GUID>DF104C23EFD3828B95BCB1BC7D672B65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1857,7 +1857,7 @@
         <Path>..\src\LV-Data.ITX\Graph\XY Graph to Igor Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02335D6A5A5A91CF280610C6BA3703C1</GUID>
+      <GUID>ABF583F87ABDAA5BAC17E0F6EBBBF4F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1920,7 +1920,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\Format ITX Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B4A707DAA0DFD79F06C36DB0E16D592</GUID>
+      <GUID>71468CDB7F9D274134931B189122699A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2011,7 +2011,7 @@
         <Path>..\src\LV-Data.ITX\Main\Write ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6F2CE15CA3F20512424328F2C4F76D3</GUID>
+      <GUID>2A44A99024F227BE38E3683790EA740A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2060,7 +2060,7 @@
         <Path>..\src\LV-Data.ITX\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBF4551CF212D2197286FB531FD9A3ED</GUID>
+      <GUID>927D7C3590318022472312FC698784D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2123,7 +2123,7 @@
         <Path>..\src\LV-Data.ITX\private\ITX.Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>987BCEAC70F34FD65817A8E39D399F4C</GUID>
+      <GUID>2BF6AE100081E0CA893B368FF7525EE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2256,7 +2256,7 @@
         <Path>..\src\LV-Data.ITX\util\Read Folder Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D679725C7C758BFD67A4DAE9A15F3C54</GUID>
+      <GUID>40FF1E3A78ECE9112A86B4FDE3B589DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2627,7 +2627,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\API\XY2 Macro.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DE4A7E2289598DF7E5F82932207C094</GUID>
+      <GUID>860E4B10F44A0D7DB3C71A85A1D41A63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2662,7 +2662,7 @@
         <Path>..\src\LV-Data.ITX\ITX Commands\private\Commands to ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CBE4590E479712F3BBD0F69B781B704</GUID>
+      <GUID>42EADBFE7231F56EAA55260ED8CBC90F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2739,7 +2739,7 @@
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FC4416A31136CF400205EE2C29B9CA9</GUID>
+      <GUID>6F746EEE5FCE8BC7F1839CD623E3EF9D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3110,7 +3110,7 @@
         <Path>..\src\LV-Data.PG\API\Parse Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3349FC1C8FDFD787BEFBC6A9AE28CEEC</GUID>
+      <GUID>1240A5760457FE32A7893A2581083BF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3187,7 +3187,7 @@
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4368B5BBFA83C194190335BD79D601FC</GUID>
+      <GUID>89AB972E3CEB0CDBBF658C159E1E18A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3264,7 +3264,7 @@
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78A540EDD570DFF886360E9D736826EA</GUID>
+      <GUID>D6C85A60F8C231C9B93229484D640744</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3719,7 +3719,7 @@
         <Path>..\src\LV-Data.PG\Private\Read Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9A6DDFDABC1092909D1E8A18F585985</GUID>
+      <GUID>8982FD91F7DCC24C1289D2F43B8EE898</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3838,7 +3838,7 @@
         <Path>..\src\LV-Data.PG\Tests\Test Write and Read Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88A522644169C94295D63584DC068E3F</GUID>
+      <GUID>4E71E35BDAD040DCD4230E529EAD4D26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3929,7 +3929,7 @@
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9881E00C90C9D218F6BF73E7439F2E3</GUID>
+      <GUID>C8FE7E2116C880D9AA3D1AF2694077BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4076,7 +4076,7 @@
         <Path>..\src\LV-Data.S3\API\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>805B1CCFD9D3649904070A4DA74C719C</GUID>
+      <GUID>5BC1EC0A40D499DFC96CAE252EB87F08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4167,7 +4167,7 @@
         <Path>..\src\LV-Data.S3\private\split object path to hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA17A25EAAB066C361BDA131C1F4F1E5</GUID>
+      <GUID>006FEE224B618DE9930514CD13BA4B13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4258,7 +4258,7 @@
         <Path>..\src\LV-Data.TDMS\API\Read TDMS XYN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B93C062B4AC99B0D1D05595EFDF5C9C</GUID>
+      <GUID>FC48ADDD9DE1F9444B311766CF975C55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4335,7 +4335,7 @@
         <Path>..\src\LV-Data.TDMS\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D8CF09B9B5D982613E4AB02EAA48844</GUID>
+      <GUID>7E1644AAC7BDA24905ADF258F565BC2C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4398,7 +4398,7 @@
         <Path>..\src\LV-Data.TDMS\Private\Write TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22DB51EB759C6AC21E85054AA3F00843</GUID>
+      <GUID>767FE77B1166A476BFDA042675A049F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4433,7 +4433,7 @@
         <Path>..\src\Macros\ITX\File to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>225DA1D6005B2EF5FA441C98E30DC7D1</GUID>
+      <GUID>9CBF5944B00B44D96E9C39D40D7F8B22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4552,7 +4552,7 @@
         <Path>..\src\Macros\Support\Write Experiment to TDMS Conversion Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97C6E93146D0C5BF9BA5286D380C7080</GUID>
+      <GUID>5B6D811CFBEB4E498FA261D0E6F101E4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
