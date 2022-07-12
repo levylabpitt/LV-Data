@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2022-07-08 13:50:02" Creator="Patrick Irvin" Comments="" ID="854920e25fe25fbf95aad3e5583bdb7e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2022-07-12 11:09:39" Creator="Patrick Irvin" Comments="" ID="8b0e1ac85707bb58116b467d3ea194e6">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>3.4.1.3</Library_Version>
+    <Library_Version>3.4.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -91,11 +91,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.4.1]
-Issue #91: Change behavior of TDMS read:
-- clear errors when trying to read non-existent channel in a group
-- if index = -1 the VI will return an array of dictionaries, each element is a channel group. This behavior is most similar to reading each group (or multiple files) one at a time.
-- An API method is provided for converting variant to dictionary</Release_Notes>
+      <Release_Notes>[3.4.2]
+- Fix issue with "Push Backup to DB" trying to push ''NaN'' values</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -422,7 +419,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3699EE2B9B8454A95AB0CA5FDA900FF0</GUID>
+      <GUID>81C1FC8BBD648F47959ADC921C70FD43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -513,7 +510,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\Examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A68AF0C27C38EC28C80AC3FE19901EF</GUID>
+      <GUID>7565CA6F1231C06F383A3E08A0398AAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -702,7 +699,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data\API\Variant to Dictionary.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>165B1BD6CE7EDC1A712B67560D4D3B25</GUID>
+      <GUID>270A8C6420F1513A7EF976B3FD33E06E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -807,7 +804,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.DAT\Write DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46EC902A4D6A5869757C9F5355D20896</GUID>
+      <GUID>934A11EEB51583B797D7AC9EACA6AEF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -982,7 +979,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EAF68E5780B82736913665090404557</GUID>
+      <GUID>51AD0E87E43FC7E3F6DDB6569EFA18F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1115,7 +1112,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A237D3F8F938F1C8013D9F3D1D3F51A5</GUID>
+      <GUID>9F2CC4630984062117ACF4D3853F9BC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1178,7 +1175,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.S3\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B926F8DCD2753CCD883C32A1F363A642</GUID>
+      <GUID>B7D6A0B83030563DB234594676601553</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1241,7 +1238,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.TDMS\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>465691AEE24D0EDDF216E39956EC46BC</GUID>
+      <GUID>AFA7BA0E78EFCC4C13B340A6FFC673F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1304,7 +1301,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\Macros\Convert Experiment Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86DB7EDE16DAB21FD851FAEC9437A151</GUID>
+      <GUID>C60D3760C1667F24FEA41EBAD6D1CBB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1521,7 +1518,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data\API\Read Wavenames.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDC1C60627D18127C7E425C96EAEFAFF</GUID>
+      <GUID>FD40BBED4107406B8D65D5742A266E8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1612,7 +1609,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data\Framework (For Override)\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69FEC3BA63E8113563814CF744033F0F</GUID>
+      <GUID>13DBCF564C81AB8C3A20E5E172C9BC1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1647,7 +1644,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data\Private\Format Path and Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5FE5EE249E133272B741193085B52A23</GUID>
+      <GUID>63E003BE3E30173739FAF02F5BF045CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1710,7 +1707,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data\Protected\Replace Space with Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F078625553082453D41E5FA1F7A1C6B8</GUID>
+      <GUID>60654A5E03DC0E2EE1585FD28461D4F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1759,7 +1756,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.DAT\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03A73EE6E007A0928E467FA0A1C3DEC5</GUID>
+      <GUID>9D0A0C34DAA6B361386B0A57485145AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1794,7 +1791,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.DAT\private\Parse DAT String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2530D8BD2644385E7C6131B551D4FFFB</GUID>
+      <GUID>8FC9FB6F6DFE3261A7631EF43A334117</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1871,7 +1868,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\Graph\XY Graph to Igor Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28739753BCD6D7C3D8F483A1D29D2FCC</GUID>
+      <GUID>2E9AEC03426E5E3923C0D678A10FB427</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1934,7 +1931,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\ITX Commands\Format ITX Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C831A14BAA2FA3FF35DD6C11E32A5B38</GUID>
+      <GUID>D19C97E990AAED1042A9E306AF2EFF2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2025,7 +2022,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\Main\Write ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7161E28EC6BC84BE285F5F9CEB776173</GUID>
+      <GUID>35A1967491B1172C2EE790A8F1D83C89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2074,7 +2071,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>521F90C1AFFBFB7702CF8C2CD54E2135</GUID>
+      <GUID>9125A9BD14311DC745AB71D2CDB1D0F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2137,7 +2134,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\private\ITX.Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8083542C6F1308799F163747C7CEA06C</GUID>
+      <GUID>B1B9DD778FCAF5636850FF4D9D4AD94C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2270,7 +2267,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\util\Read Folder Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5F554C2E8ED66A23188A416C0E2E2F2</GUID>
+      <GUID>E30A4247D1E55DE0FE409677E7C920F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2641,7 +2638,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\ITX Commands\API\XY2 Macro.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>261F72D70D576F37983AB7F4ADA94B97</GUID>
+      <GUID>4A1DAB9FE7A703D77C192607DC56E33B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2676,7 +2673,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.ITX\ITX Commands\private\Commands to ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D0FC10064E896E33D467EEE34618425</GUID>
+      <GUID>D73DE1F1E96978FEB6C68F4F6138C1F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2753,7 +2750,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D82219A42280E629D5DF4D6484EC8302</GUID>
+      <GUID>02649D3475B0BC4B7DBB4F1F446E4253</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3124,7 +3121,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\API\Parse Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0342F5F788F21AE7FD1501F48E7CCF54</GUID>
+      <GUID>65FA08FC31C6CC27F93E3B5B4104B8D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3201,7 +3198,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>182558E37AF13BF3E9FA91CA7B751258</GUID>
+      <GUID>42DB7F83E5CDEC205C2D301E2E748FDF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3278,7 +3275,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>018C88672901E1DA30375C5C65D7701E</GUID>
+      <GUID>21B04B1A8B0C048D757FAEE30A5CEA53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3733,7 +3730,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\Private\Read Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4540DA84778E2D6BD49BF4C45FA9DF91</GUID>
+      <GUID>86EA01E5A42E725EF9D223CEDC867FC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3852,7 +3849,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\Tests\Test Write and Read Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>844E648C566B6A1A987516212F086D58</GUID>
+      <GUID>07E7D78D90C4B702C4FDAC4F1C1969D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3943,7 +3940,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40DDC2802C843FCF0EA653A9583F8715</GUID>
+      <GUID>4212C376451BA22D565B5E3EE0C780BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4090,7 +4087,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.S3\API\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB36F7231783378CF538E609C861AB12</GUID>
+      <GUID>DE34F5CA4FE459EDCFC2453B4129FDDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4181,7 +4178,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.S3\private\split object path to hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D27B4D00DD470EC96123559E0F516D8</GUID>
+      <GUID>37FA0FE4A2B4623EDFC58F54CA0B46F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4272,7 +4269,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.TDMS\API\Read TDMS XYN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76E49B81B134A0736724CA013FDE86C6</GUID>
+      <GUID>CE808B6C4693BB42284C56969AF38F65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4349,7 +4346,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.TDMS\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00612CD41ED6D9CABB4E27830F6CFE7D</GUID>
+      <GUID>6DBF1E453827DC8F786450C4D7775479</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4412,7 +4409,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\LV-Data.TDMS\Private\Write TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0069790200F95D2B649C20FCD3F912B9</GUID>
+      <GUID>9FA3442B04395F2CC0EF9BB8454D96E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4447,7 +4444,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\Macros\ITX\File to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F53EDE953D4F6C3A11CDDB10A8D3864</GUID>
+      <GUID>373C6B6B2DB3199CC777CFFB120F52DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4566,7 +4563,7 @@ Issue #91: Change behavior of TDMS read:
         <Path>..\src\Macros\Support\Write Experiment to TDMS Conversion Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56AD978627F31D149D99C55022B51A2E</GUID>
+      <GUID>8FCBC056D257AB7A362F6408F7E2BC94</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
