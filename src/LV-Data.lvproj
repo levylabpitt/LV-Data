@@ -70,6 +70,7 @@
 		</Item>
 		<Item Name="LV-Data.S3" Type="Folder">
 			<Item Name="LV-Data.S3.lvclass" Type="LVClass" URL="../LV-Data.S3/LV-Data.S3.lvclass"/>
+			<Item Name="LV-Data.AWS CLI.lvclass" Type="LVClass" URL="../LV-Data.AWS CLI/LV-Data.AWS CLI.lvclass"/>
 		</Item>
 		<Item Name="LV-Data.TDMS" Type="Folder">
 			<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="../LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
