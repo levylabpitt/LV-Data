@@ -441,13 +441,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
 		<Item Name="INSERT Multivalue.vi" Type="VI" URL="../Private/INSERT Multivalue.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$&amp;&gt;S&lt;X2F)(2P)%2#0Q!!%E!Q`````QF1982I=S"P&gt;81!,%"Q!"Y!!"=64&amp;9N2'&amp;U93Z12V.24#ZM&gt;G.M98.T!!N%982B,F"()'^V&gt;!!%!!!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!%E"!!!(`````!!A&amp;18*S98E!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!J!5Q2%982B!!!-1&amp;-(5'&amp;U;#BT+1!M1(!!(A!!&amp;R6-6CV%982B,F"(5V&amp;-,GRW9WRB=X-!#E2B&gt;'%O5%=A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!E!"Q!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!##!!!!!!!!!!+!!!!#!!!!!A!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$&amp;&gt;S&lt;X2F)(2P)%2#0Q!!%E!Q`````QF1982I=S"P&gt;81!,%"Q!"Y!!"=64&amp;9N2'&amp;U93Z12V.24#ZM&gt;G.M98.T!!N%982B,F"()'^V&gt;!!%!!!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!%E"!!!(`````!!A&amp;18*S98E!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!J!5Q2%982B!!!-1&amp;-(5'&amp;U;#BT+1!M1(!!(A!!&amp;R6-6CV%982B,F"(5V&amp;-,GRW9WRB=X-!#E2B&gt;'%O5%=A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!E!"Q!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!##!!!!!!!!!!+!!!!#A!!!!I!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="Execute SQL.vi" Type="VI" URL="../Private/Execute SQL.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/2W6U/E&gt;F&gt;#"4&gt;(*J&lt;G=!!"B!1!!#``````````]!"1:3:8.V&lt;(1!!$*!=!!?!!!8&amp;5R7,52B&gt;'%O5%&gt;455QO&lt;(:D&lt;'&amp;T=Q!24&amp;9N2'&amp;U93Z12V.24#"P&gt;81!$%!B"V*F=X6M&gt;$]!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!R!-0````]$5V&amp;-!#Z!=!!?!!!8&amp;5R7,52B&gt;'%O5%&gt;455QO&lt;(:D&lt;'&amp;T=Q!.4&amp;9N2'&amp;U93Z12V.24!"B!0!!$!!$!!1!"A!(!!1!"!!)!!1!#1!%!!I!#Q-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!A!!!!!!!!!#A!!!!!!!!!)!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
@@ -750,23 +750,43 @@
 		</Item>
 	</Item>
 	<Item Name="Tests" Type="Folder">
-		<Item Name="DSC TSV to PGSQL.vi" Type="VI" URL="../Tests/DSC TSV to PGSQL.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
-		</Item>
-		<Item Name="DSC TSV to PGSQL Choose Column Dialog.vi" Type="VI" URL="../Tests/DSC TSV to PGSQL Choose Column Dialog.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#?!!!!"A!%!!!!%E!Q`````QF4:7RF9X2J&lt;WY!$%!Q`````Q.%5U-!#!!Q`````Q!91%!!!@````]!!QJ*&gt;'6N)%ZB&lt;76T!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!)!"!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%+!!!"#A!!!!!"!!5!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073742080</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278930</Property>
+		<Item Name="DSC Backup" Type="Folder">
+			<Item Name="DSC TSV to PGSQL.vi" Type="VI" URL="../Tests/DSC TSV to PGSQL.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+			</Item>
+			<Item Name="DSC TSV to PGSQL Choose Column Dialog.vi" Type="VI" URL="../Tests/DSC TSV to PGSQL Choose Column Dialog.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#O!!!!"Q!%!!!!%E!Q`````QF4:7RF9X2J&lt;WY!%%!Q`````Q&gt;.:8.T97&gt;F!!R!-0````]$2&amp;.$!!A!-0````]!'%"!!!(`````!!1+382F&lt;3"/97VF=Q!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!A!$!!5$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!))!!!"#A!!!1I!!!!!!1!'!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1073774912</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+			</Item>
+			<Item Name="DSC TSV Date Time to Timestamp.vi" Type="VI" URL="../Tests/DSC TSV Date Time to Timestamp.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!6!!'$W2F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75A-1!91%!!!@````]!"1J5;7VF=X2B&lt;8"T!!!11$$`````"F.U=GFO:Q!!#!"1!!%!"Q!?1%!!!@````]!#"&amp;B=H*B?3"P:C"D&lt;(6T&gt;'6S=Q!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!&amp;E"!!!(`````!!=*97RM)(2J&lt;76T!":!1!!"`````Q!(#7&amp;M&lt;#"E982F=Q!71%!!!@````]!"QBB&lt;'QA:'&amp;U91!!6!$Q!!Q!!Q!%!!9!#1!%!!1!"!!%!!I!#Q!-!!U#!!"Y!!!*!!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!))!!!##!!!!AA!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821058</Property>
+			</Item>
+			<Item Name="DSC TSV Process Path.vi" Type="VI" URL="../Tests/DSC TSV Process Path.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-P````]-=(*P9W6T=S"Q982I!!!31$,`````#("B&gt;'AA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-P````](='&amp;U;#"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!!"!!E!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685394</Property>
+			</Item>
 		</Item>
 		<Item Name="Test Switch Tables.vi" Type="VI" URL="../Tests/Test Switch Tables.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
@@ -840,23 +860,5 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-	</Item>
-	<Item Name="DSC TSV Date Time to Timestamp.vi" Type="VI" URL="../Tests/DSC TSV Date Time to Timestamp.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!6!!'$W2F:G&amp;V&lt;(1A&gt;G&amp;M&gt;75A-1!91%!!!@````]!"1J5;7VF=X2B&lt;8"T!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!)#7&amp;M&lt;#"U;7VF=Q!71%!!!@````]!#!FB&lt;'QA:'&amp;U:8-!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!*!!I#!!"Y!!!*!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!!!!1!,!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
-	</Item>
-	<Item Name="DSC TSV Process Path.vi" Type="VI" URL="../Tests/DSC TSV Process Path.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-P````]-=(*P9W6T=S"Q982I!!!31$,`````#("B&gt;'AA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-P````](='&amp;U;#"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!E!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!!!!"!!E!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
 </LVClass>
