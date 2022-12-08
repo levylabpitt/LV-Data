@@ -833,16 +833,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="AWS CLI.Bucket.ctl" Type="VI" URL="../LV-Data.AWS CLI/Typedefs/AWS CLI.Bucket.ctl"/>
-			<Item Name="AWS Execute CMD.vi" Type="VI" URL="../LV-Data.AWS CLI/private/AWS Execute CMD.vi"/>
-			<Item Name="AWS Handle Error.vi" Type="VI" URL="../LV-Data.AWS CLI/private/AWS Handle Error.vi"/>
-			<Item Name="AWS Process Command.vi" Type="VI" URL="../LV-Data.AWS CLI/private/AWS Process Command.vi"/>
-			<Item Name="AWS Process Output.vi" Type="VI" URL="../LV-Data.AWS CLI/private/AWS Process Output.vi"/>
-			<Item Name="AWS S3 ls buckets.vi" Type="VI" URL="../LV-Data.AWS CLI/API/S3/AWS S3 ls buckets.vi"/>
-			<Item Name="AWS S3 ls.vi" Type="VI" URL="../LV-Data.AWS CLI/API/S3/AWS S3 ls.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Remove leading and trailing slashes.vi" Type="VI" URL="../LV-Data.AWS CLI/private/Remove leading and trailing slashes.vi"/>
-			<Item Name="LV-Data.AWS CLI.ctl" Type="VI" URL="../LV-Data.AWS CLI/LV-Data.AWS CLI.lvclass/LV-Data.AWS CLI.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
