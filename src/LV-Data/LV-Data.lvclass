@@ -142,14 +142,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 		</Item>
-		<Item Name="Variant to Dictionary.vim" Type="VI" URL="../API/Variant to Dictionary.vim">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$;W6Z!!J!5Q6W97RV:1")!0%!!!!!!!!!!A^-6CV%982B,GRW9WRB=X-82'FD&gt;'FP&lt;G&amp;S?3UN9WRV=X2F=CZD&gt;'Q!'%"1!!)!"1!'#7NF?3VW97RV:1!91%!!!@````]!"QJ%;7.U;7^O98*Z!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;1!]!!-!!-!"!!%!!A!"!!%!!1!"!!*!!1!"!!(!A!!?!!!#1!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!)!!!!!!%!#A!!!!!</Property>
+		<Item Name="Variant to Dictionary.vi" Type="VI" URL="../API/Variant to Dictionary.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;N!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$;W6Z!!J!5Q6W97RV:1")!0%!!!!!!!!!!A^-6CV%982B,GRW9WRB=X-82'FD&gt;'FP&lt;G&amp;S?3UN9WRV=X2F=CZD&gt;'Q!'%"1!!)!"1!'#7NF?3VW97RV:1!?1%!!!@````]!"R&amp;%982B)#B%;7.U;7^O98*Z+1!)!&amp;!!!1!)!":!1!!"`````Q!*#5&amp;S=G&amp;Z)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!1!!"`````Q!*#%&amp;S=G&amp;Z)'FO!!"5!0!!$!!$!!1!"!!+!!1!"!!%!!1!#Q!%!!1!$!)!!(A!!!E!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!##!!!!!!"!!U!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741952</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342709760</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685378</Property>
 		</Item>
 		<Item Name="Variant to DBL Array.vi" Type="VI" URL="../API/Variant to DBL Array.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!'E"!!!,``````````Q!&amp;#$*%)%&amp;S=G&amp;Z!!!71%!!!@````]!"1AR2#""=H*B?1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-/2'&amp;U93!I6G&amp;S;7&amp;O&gt;#E!!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!+!!!!!!%!#A!!!!!</Property>
