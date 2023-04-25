@@ -7,8 +7,6 @@
 
 ![image](https://user-images.githubusercontent.com/26659428/234397552-5a57d94b-32d2-4d2a-9dba-89eb17de05b2.png)
 
-### 1. Intensity Graph to Igor Graph
+### 1. Intensity Graph to Igor Graph & 2. XY Graph to Igor Graph
 
-
-
-### 2. XY Graph to Igor Graph
+https://drive.google.com/file/d/1BQmgGbfqctfzT31j3DpW92AykMyAmb9X/view?usp=drivesdk
