@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -292,95 +292,9 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
-				<Item Name="SPW_OpenWriter.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_OpenWriter.vi"/>
-				<Item Name="SPW_OpenWriterCORE.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_OpenWriterCORE.vi"/>
-				<Item Name="dscCitSP.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/dscCitSP.dll"/>
-				<Item Name="ERR_ErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_ErrorClusterFromErrorCode.vi"/>
-				<Item Name="ERR_MergeErrors.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_MergeErrors.vi"/>
-				<Item Name="CIT_ReadTimeout.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_ReadTimeout.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="dsc_PrefsPath.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/info/dsc_PrefsPath.vi"/>
-				<Item Name="SPW_ProxyManager.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_ProxyManager.vi"/>
-				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
-				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
-				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
-				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
-				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
-				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
-				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="CTL_findDSCApp.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_findDSCApp.vi"/>
-				<Item Name="SPW_Manager.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_Manager.vi"/>
-				<Item Name="SPW_ManagerBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_ManagerBuffer.vi"/>
-				<Item Name="CTL_resolveSourceDBURLInput.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_resolveSourceDBURLInput.vi"/>
-				<Item Name="NET_convertLocalhostURLToMachineURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_convertLocalhostURLToMachineURL.vi"/>
-				<Item Name="NET_localhostToMachineName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_localhostToMachineName.vi"/>
-				<Item Name="NET_GetHostName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_GetHostName.vi"/>
-				<Item Name="dscCommn.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/common/dscCommn.dll"/>
-				<Item Name="NET_IsComputerLocalhost.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_IsComputerLocalhost.vi"/>
-				<Item Name="PTH_ConstructCustomURL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_ConstructCustomURL.vi"/>
-				<Item Name="CTL_getDBFromDir.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_getDBFromDir.vi"/>
-				<Item Name="dscHistD.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/historical/internal/dscHistD.dll"/>
-				<Item Name="CTL_hdProxyManager.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_hdProxyManager.vi"/>
-				<Item Name="CTL_hdManagerBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_hdManagerBuffer.vi"/>
-				<Item Name="CTL_hdManager.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_hdManager.vi"/>
-				<Item Name="CTL_extractURLMDPformat.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_extractURLMDPformat.vi"/>
-				<Item Name="CTL_dbURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_dbURLdecode.vi"/>
-				<Item Name="CTL_dbNameValid.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_dbNameValid.vi"/>
-				<Item Name="PTH_EmptyOrNotAPath.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_EmptyOrNotAPath.vi"/>
-				<Item Name="PTH_IsUNC.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_IsUNC.vi"/>
-				<Item Name="CTL_defaultHistDB.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultHistDB.vi"/>
-				<Item Name="SPW_WriteDbl.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteDbl.vi"/>
-				<Item Name="SPW_WriteBool.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteBool.vi"/>
-				<Item Name="SPW_WriteANSI.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteANSI.vi"/>
-				<Item Name="SPW_WriteBitA.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteBitA.vi"/>
-				<Item Name="SPW_WriteVar.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteVar.vi"/>
-				<Item Name="SPW_CloseWriter.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_CloseWriter.vi"/>
-				<Item Name="HIST_UserArchiveDatabase.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_UserArchiveDatabase.vi"/>
-				<Item Name="HIST_CompactCORE.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_CompactCORE.vi"/>
-				<Item Name="HIST_StartProgressUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_StartProgressUpdate.vi"/>
-				<Item Name="CIT_LaunchProgressBar.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_LaunchProgressBar.vi"/>
-				<Item Name="CIT_GUI_ProgressStatusTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_GUI_ProgressStatusTemplate.vi"/>
-				<Item Name="HIST_DeleteTracesCORE.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_DeleteTracesCORE.vi"/>
-				<Item Name="HIST_ArchiveCORE.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_ArchiveCORE.vi"/>
-				<Item Name="CIT_VerifyAndMatch.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_VerifyAndMatch.vi"/>
-				<Item Name="CTL_AppendMatchedTrace.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CTL_AppendMatchedTrace.vi"/>
-				<Item Name="CIT_MatchWildcard.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_MatchWildcard.vi"/>
-				<Item Name="CIT_ApplySubs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_ApplySubs.vi"/>
-				<Item Name="CIT_SplitUp.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_SplitUp.vi"/>
-				<Item Name="CIT_SplitWildcard.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/citadel/CIT_SplitWildcard.vi"/>
-				<Item Name="HIST_GetHistTagListCORE.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_GetHistTagListCORE.vi"/>
-				<Item Name="CTL_handleDestinationPath.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_handleDestinationPath.vi"/>
-				<Item Name="ERR_GetErrText.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/error/ERR_GetErrText.vi"/>
-				<Item Name="CTL_verifyOrCreateDB.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_verifyOrCreateDB.vi"/>
-				<Item Name="CTL_defaultDBName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultDBName.vi"/>
-				<Item Name="PTH_GetURLComponent.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/path/PTH_GetURLComponent.vi"/>
-				<Item Name="CTL_tagToPattern.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_tagToPattern.vi"/>
-				<Item Name="NET_handleDotInTagName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_handleDotInTagName.vi"/>
-				<Item Name="CTL_defaultProcessName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_defaultProcessName.vi"/>
-				<Item Name="CTL_tagToTraceName.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_tagToTraceName.vi"/>
-				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
-				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
-				<Item Name="SEC Get Interactive User.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/security/internal/custom/SEC Get Interactive User.vi"/>
-				<Item Name="CTL_checkForRemoteDelete.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/cittools/CTL_checkForRemoteDelete.vi"/>
-				<Item Name="TIME_StartTsLEStopTs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/time/TIME_StartTsLEStopTs.vi"/>
-				<Item Name="HIST_UserDeleteTraces.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/HIST_UserDeleteTraces.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ProgressBar_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_WireFlow.lvclass"/>
 				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
@@ -413,14 +327,13 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="SPW_WriteBreak.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/spwriters/SPW_WriteBreak.vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -444,16 +357,14 @@
 				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
 				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
 				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
-			</Item>
-			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				<Item Name="Open Trace.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Open Trace.vi"/>
+				<Item Name="Open Trace (Numeric).vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Open Trace (Numeric).vi"/>
+				<Item Name="Write Trace.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Write Trace.vi"/>
+				<Item Name="Write Trace (Numeric).vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Write Trace (Numeric).vi"/>
+				<Item Name="Write Trace Break.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Write Trace Break.vi"/>
+				<Item Name="Close Trace.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Close Trace.vi"/>
+				<Item Name="Archive Traces.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Archive Traces.vi"/>
+				<Item Name="Delete Traces.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/Delete Traces.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>

@@ -438,4 +438,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074274834</Property>
 	</Item>
+	<Item Name="Data Retrieve GUI.vi" Type="VI" URL="../Data Retrieve GUI.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(0!!!!%A!=1$,`````%U:J&lt;'5A&lt;X)A2G^M:'6S)&amp;"B&gt;'A!9!$R!!!!!!!!!!)44&amp;9N2'&amp;U93Z*6&amp;AO&lt;(:D&lt;'&amp;T=R:3:82S;76W:3"%982B)&amp;2Z='5O9X2M!#V!&amp;A!%!UF57!F*6&amp;AA&gt;S]A-E1$2%&amp;5"&amp;2%46-!!!F%982B)&amp;2Z='5!&amp;U!$!"&amp;%161A;'6B:'6S)'RF&lt;G&gt;U;!!%!!!!"1!+!!!-!%!!!@````]!"!!+!&amp;!!!A!&amp;!!5!&amp;%"!!!(`````!!9'13"W=S"#!!!.1!-!"G^G:H.F&gt;!!!&amp;%"!!!(`````!!9'1S"W=S"%!!!.1!-!"GRF&lt;G&gt;U;!!!%E"!!!,``````````Q!%!55!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!$!!.!!Y4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"5ZP&gt;'6T!'Q!]!!1!!!!!1!#!!-!"Q!)!!E!#A!,!!-!!Q!0!!-!!Q!1!!-$!!%)!!!+!!!!#A!!!!I!!!!!!!!!#1!!!!I!!!!*!!!!#A!!!!E!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!E!!!!!!!!!!!%!%1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1074004224</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+	</Item>
 </LVClass>
