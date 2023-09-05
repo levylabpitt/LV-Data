@@ -22,6 +22,6 @@
 		<Item Name="PGPASS.Format Connection String.vi" Type="VI" URL="../PGPASS.Format Connection String.vi"/>
 		<Item Name="PGPASS.Read.vi" Type="VI" URL="../PGPASS.Read.vi"/>
 		<Item Name="PGPASS.Write.vi" Type="VI" URL="../PGPASS.Write.vi"/>
-		<Item Name="PGPASS.UserMgr.vi" Type="VI" URL="../PGPASS.UserMgr.vi"/>
+		<Item Name="PGPASS.ConnectionMgr.vi" Type="VI" URL="../PGPASS.ConnectionMgr.vi"/>
 	</Item>
 </Library>
