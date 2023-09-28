@@ -18,7 +18,6 @@
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="PGPASS.default path.vi" Type="VI" URL="../PGPASS.default path.vi"/>
-		<Item Name="PGPASS.dialog.vi" Type="VI" URL="../PGPASS.dialog.vi"/>
 		<Item Name="PGPASS.Format Connection String.vi" Type="VI" URL="../PGPASS.Format Connection String.vi"/>
 		<Item Name="PGPASS.Format Connection String with Password.vi" Type="VI" URL="../PGPASS.Format Connection String with Password.vi"/>
 		<Item Name="PGPASS.Read.vi" Type="VI" URL="../PGPASS.Read.vi"/>
