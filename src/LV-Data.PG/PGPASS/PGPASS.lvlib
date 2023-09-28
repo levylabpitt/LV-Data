@@ -20,6 +20,7 @@
 		<Item Name="PGPASS.default path.vi" Type="VI" URL="../PGPASS.default path.vi"/>
 		<Item Name="PGPASS.dialog.vi" Type="VI" URL="../PGPASS.dialog.vi"/>
 		<Item Name="PGPASS.Format Connection String.vi" Type="VI" URL="../PGPASS.Format Connection String.vi"/>
+		<Item Name="PGPASS.Format Connection String with Password.vi" Type="VI" URL="../PGPASS.Format Connection String with Password.vi"/>
 		<Item Name="PGPASS.Read.vi" Type="VI" URL="../PGPASS.Read.vi"/>
 		<Item Name="PGPASS.Write.vi" Type="VI" URL="../PGPASS.Write.vi"/>
 		<Item Name="PGPASS.ConnectionMgr.vi" Type="VI" URL="../PGPASS.ConnectionMgr.vi"/>
