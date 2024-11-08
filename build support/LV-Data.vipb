@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2024-10-03 16:32:13" Creator="Patrick Irvin" Comments="" ID="a12be6df7079a1d27a56f4e33764e3a1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2024-11-07 20:35:42" Creator="Patrick Irvin" Comments="" ID="fe9e684803c5b3da75b4c07ff8a07305">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtoitx</Package_File_Name>
-    <Library_Version>3.8.0.3</Library_Version>
+    <Library_Version>3.8.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -18,12 +18,14 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>i3_external_encryption &gt;= 1.0.0.8</External_Dependencies>
-      <External_Dependencies>jdp_science_postgresql &gt;= 0.4.0.21</External_Dependencies>
+      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
+      <External_Dependencies>jdp_science_postgresql &gt;= 0.5.2.40</External_Dependencies>
       <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
       <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
       <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_lib_unicode &gt;= 1.0.0.7</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.2.0.6</External_Dependencies>
       <External_Dependencies>levylab_lib_control_vi &gt;= 1.3.0.11</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.10.3</External_Dependencies>
@@ -48,13 +50,16 @@
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>wireflow_ab_lib_wf_progressbar &gt;= 1.0.2.56</External_Dependencies>
+      <Additional_External_Dependencies>hooovahh_array_vims &gt;=3.1.1.22</Additional_External_Dependencies>
       <Direct_Dependencies>i3_external_encryption-1.0.0.8</Direct_Dependencies>
-      <Direct_Dependencies>jdp_science_postgresql-0.4.0.21</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_postgresql-0.5.2.40</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_unicode-1.0.0.7</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_control_vi-1.3.0.11</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.10.3</Direct_Dependencies>
@@ -96,15 +101,7 @@
       <Packager>Patrick Irvin</Packager>
       <URL/>
       <Release_Notes>[3.8.0]
-Updates related to LV-Data.PGSQL [PostgreSQL]
-- pq-labview updated to v0.4 (libpq.dll is now v17 and 32 or 64 bit compatible)
-- Issue #115: Added support for creating JSON columns (jsonb)
-- Issue #116: Executing any sql statement begins and ends a transaction
-- Issue #117: Better support for "timestamp with timezone" datatypes ("timestamptz")
-   - "timestamptz" is default for new tables
-   - "timestamp" is backwards compatible for reading and writing if a table hasn't yet been converted to "timestamptz"
-- Improved "multirow" insert (Inserts at multiple timestamps). Both "INSERT.vi" and "INSERT Multivalue.vi" support inserting into columns in different tables in one transaction.
-- other bugfixes and code refactoring</Release_Notes>
+- update package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -460,7 +457,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Data Retrieve GUI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DE679BA055A9B493498FA3819B54E9A</GUID>
+      <GUID>BE1153F21084973EC09253C5C99B9BFD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -551,7 +548,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\Examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D758A69599589D5857470655C9ACA018</GUID>
+      <GUID>083D66BE730B683832C4E75C5533B011</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -642,7 +639,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB87E187C2884749D39CBDCF2BC64FC7</GUID>
+      <GUID>C78BB2B6506D4A50A9E0A299805A8891</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -691,7 +688,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.AWS CLI\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22FF7779331977711A6D07A7AA3205CD</GUID>
+      <GUID>CCA98167452FBF5492763B870F44055A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -796,7 +793,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.DAT\Write DAT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B357602D91CE3DBCF342F4697991A1CE</GUID>
+      <GUID>DD9162BD2B079279CC381A465F406EF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -985,7 +982,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7E4852C2F4D486809F625EE6F2D9D81</GUID>
+      <GUID>7F857398BDFF81332FF001289D8A22CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1132,7 +1129,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4940D75AA635E4B4758CAB7B9C81F52</GUID>
+      <GUID>920BEB7D1B56660B1699A43CDD4E220C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1195,7 +1192,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.S3\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF05E90B7934F6CFCC2B4C7A5505A909</GUID>
+      <GUID>129C3BA2ACA87C6DBF909558F4936567</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1258,7 +1255,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.TDMS\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E899E775B6BEFEC97DB6A7CD06DC8928</GUID>
+      <GUID>A65D4F2BD3EF7632DAAFAF084A36DE96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1321,7 +1318,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\Macros\Convert Experiment Folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECBCCC5C51F021C596DE2925D21BD1A8</GUID>
+      <GUID>8F391992526ADF8A39429F19FA4E6A89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1734,7 +1731,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\API\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64B2DF0C5B2BC09C5D94738A33FE3940</GUID>
+      <GUID>19DE6A95D6442A8E6CAE7D9AFF3C83BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1825,7 +1822,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Framework (For Override)\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ADE4792C758C5A2D2300A66E9DBBBC22</GUID>
+      <GUID>1FCF18A80257ABD62139EC7387BDCCF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1860,7 +1857,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Private\Format Path and Filename.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59BBEBD255D8162899F484F5EF89DCF7</GUID>
+      <GUID>617DEE6CD1A9784F6E1682F6174B578C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1923,7 +1920,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Protected\Replace Space with Empty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CD7DF970A8B5605440F177E6BA6B113</GUID>
+      <GUID>2F3B9CAFF9B2E48B67453336A769FB6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1958,7 +1955,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data\Tests\Test Conversion.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>959C2C7B3D223A190AFDBC5AF42F3F5A</GUID>
+      <GUID>CE78FE5BCA4BE59079933D91B67734DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1993,7 +1990,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.AWS CLI\API\S3</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2732217830DC51C163DF8779AD286D7</GUID>
+      <GUID>A439C660DF0CDB670BC6AF35C75C6E28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2084,7 +2081,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.AWS CLI\private\Remove leading and trailing slashes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>272E7A68CEF7A60FEC85D9C28AFAEE19</GUID>
+      <GUID>E07B1EFF85F39AF443ACE113F84E0325</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2133,7 +2130,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.AWS CLI\API\S3\AWS S3 ls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>333AB4DDCB67C68D14B238605D85E42D</GUID>
+      <GUID>6B7A0C601813071CFED958BD92B3FC4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2182,7 +2179,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.DAT\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75E135BE2272DD73F5BE84C8F4739D1C</GUID>
+      <GUID>DA33D42EB161ED03FC0EE67F0BAEA34F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2217,7 +2214,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.DAT\private\Parse DAT String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B275C9184F498EC231C5376F0C6930D3</GUID>
+      <GUID>41FEE63445FC10594FEE6E47A5E8C180</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2280,7 +2277,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\ITX Commands\Format ITX Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7F624E029DB074AA2DD7E39B97442D5</GUID>
+      <GUID>D77518C4EC6E5F91E4FC67F0927F4FCD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2455,7 +2452,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\private\ITX.Variant to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFC75F887BE7A9B7365A1F4CCF4BF737</GUID>
+      <GUID>748F286A07A5A8782C4667347736CD8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -2812,7 +2809,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\ITX Commands\API\XY2 Macro.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>157B248262E7922D92DCCB2B55ADF314</GUID>
+      <GUID>E8D6849740EC8C2BB253321523037160</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -2847,7 +2844,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\ITX Commands\private\Commands to ITX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5BFDE4A7E9CBCC30451F25D7A255CE9</GUID>
+      <GUID>0F1BE674F326A0B2517E25EE585B8265</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2924,7 +2921,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59E076C61E946B8D1A86C9EFC74A0977</GUID>
+      <GUID>C1C4D91D90780BD3EA7EBF22CC90C020</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3351,7 +3348,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\API\Check existence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62FAD6A7E4BFCE915E935A8B2DDBCCCD</GUID>
+      <GUID>093AE48E15ADE0F4F038059C3095809E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3428,7 +3425,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87FDAD2191BE9A5E5F5F5A4FC32A9095</GUID>
+      <GUID>A592AAA0F76537E8E399638C6B65D3FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3701,7 +3698,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\Tests\Test Write and Read Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AB6F08AC1F1B9A4F2C9C13DB2C994FE</GUID>
+      <GUID>2F4431B21ACD0BF14C0F0D1B16E69297</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3792,7 +3789,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25C66C66E327654D6EA30D1C89ED25BB</GUID>
+      <GUID>A4B5A90964CFF0CAC759667441C47D8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -3939,7 +3936,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.S3\API\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05D95E2300E7124112AB6F5C5474869E</GUID>
+      <GUID>FD4194000EA1605985F0641CA45F098B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -4030,7 +4027,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.S3\private\split object path to hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67CEAE5EF74AD49A0F2E9560DA1EFAB9</GUID>
+      <GUID>F1CDFD795BD45EA9AD15AED766082592</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4121,7 +4118,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.TDMS\API\Read TDMS XYN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE12738875A91C6CB8B25173F9421562</GUID>
+      <GUID>70466354DC349F7FE6A5D3240DA29FD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4198,7 +4195,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.TDMS\Overrides\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2E73BD13FFF504B88472BDFC22D498F</GUID>
+      <GUID>2D35A70AC7696EB6066868389FCECE17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -4261,7 +4258,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.TDMS\Private\Write TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4A68249903B54E4AD8DCF76501D7129</GUID>
+      <GUID>33A328C2B54D4CB4D29CA4F0CC7B711E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4296,7 +4293,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\Macros\ITX\File to TDMS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8533102B6E5B208E18461B72350E3F65</GUID>
+      <GUID>8506A9E7D9E8901B7F6EA716949E1E47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -4415,7 +4412,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\Macros\Support\Write Experiment to TDMS Conversion Log.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49A2F7C6A6B24117FCFDE9EAD5591FA4</GUID>
+      <GUID>974FF08BC19A7C31905CF147AA07210E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4534,7 +4531,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\PGPASS\PGPASS.ConnectionMgr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E56C8BEDB22853D9695CD397D2590837</GUID>
+      <GUID>43318FBC0245B3D786C438D8C5E609EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -4625,7 +4622,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\Graph\LV Graph to Igor UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD57945242DC240739317C89EF1EFE61</GUID>
+      <GUID>CFE77863A0BBEA4B8C3BAD5AB2D1EBC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -4702,7 +4699,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.ITX\Tests\Test Scaler Data to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A73DC7C1C97CFCDFE1E665A2192814DA</GUID>
+      <GUID>83D15C692A2EA99614D1E637B1DF8327</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -4765,7 +4762,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B33E352E65B0C5594B6E582154CD0C4</GUID>
+      <GUID>795CDC2FF65545B288F8E423F7422FE3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -5262,7 +5259,7 @@ Updates related to LV-Data.PGSQL [PostgreSQL]
         <Path>..\src\LV-Data.PG\Private\Write Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32BA60BDC760D76D38DA8574F56666D4</GUID>
+      <GUID>0E82DDC1923B92D690916FF9EDAFE687</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
