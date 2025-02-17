@@ -12,8 +12,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="LV-Data.PGSQL.vipb" Type="Document" URL="../../build support/LV-Data.PGSQL.vipb"/>
-			<Item Name="LV-Data.PGSQL.vipc" Type="Document" URL="../../build support/LV-Data.PGSQL.vipc"/>
+			<Item Name="LV-Data-PGSQL.vipb" Type="Document" URL="../../build support/LV-Data-PGSQL.vipb"/>
+			<Item Name="LV-Data-PGSQL.vipc" Type="Document" URL="../../build support/LV-Data-PGSQL.vipc"/>
 		</Item>
 		<Item Name="LV-Data.PGSQL.lvclass" Type="LVClass" URL="../LV-Data.PG/LV-Data.PGSQL.lvclass"/>
 		<Item Name="PGPASS.lvlib" Type="Library" URL="../LV-Data.PG/PGPASS/PGPASS.lvlib"/>
