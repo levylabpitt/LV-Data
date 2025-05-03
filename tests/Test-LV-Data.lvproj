@@ -16,25 +16,25 @@
 			<Item Name="LV-Data.vipc" Type="Document" URL="../../build support/LV-Data.vipc"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="DAT Example.vi" Type="VI" URL="../Examples/DAT Example.vi"/>
-			<Item Name="ITX Example.vi" Type="VI" URL="../Examples/ITX Example.vi"/>
-			<Item Name="ITX2 Example.vi" Type="VI" URL="../Examples/ITX2 Example.vi"/>
-			<Item Name="TDMS Read Example.vi" Type="VI" URL="../Examples/TDMS Read Example.vi"/>
-			<Item Name="Tree.vi" Type="VI" URL="../Examples/Tree.vi"/>
+			<Item Name="DAT Example.vi" Type="VI" URL="../../src/Examples/DAT Example.vi"/>
+			<Item Name="ITX Example.vi" Type="VI" URL="../../src/Examples/ITX Example.vi"/>
+			<Item Name="ITX2 Example.vi" Type="VI" URL="../../src/Examples/ITX2 Example.vi"/>
+			<Item Name="TDMS Read Example.vi" Type="VI" URL="../../src/Examples/TDMS Read Example.vi"/>
+			<Item Name="Tree.vi" Type="VI" URL="../../src/Examples/Tree.vi"/>
 		</Item>
 		<Item Name="Macros" Type="Folder">
-			<Item Name="Conversion.lvclass" Type="LVClass" URL="../Macros/Conversion.lvclass"/>
+			<Item Name="Conversion.lvclass" Type="LVClass" URL="../../src/Macros/Conversion.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Read DAT and TDMS.vi" Type="VI" URL="../Tests/Test Read DAT and TDMS.vi"/>
+			<Item Name="Test Read DAT and TDMS.vi" Type="VI" URL="../../src/Tests/Test Read DAT and TDMS.vi"/>
 		</Item>
-		<Item Name="LV-Data.lvclass" Type="LVClass" URL="../LV-Data/LV-Data.lvclass"/>
-		<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="../LV-Data.DAT/LV-Data.DAT.lvclass"/>
-		<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="../LV-Data.ITX/LV-Data.ITX.lvclass"/>
-		<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
-		<Item Name="LV-Data.S3.lvclass" Type="LVClass" URL="../LV-Data.S3/LV-Data.S3.lvclass"/>
-		<Item Name="LV-Data.AWS CLI.lvclass" Type="LVClass" URL="../LV-Data.AWS CLI/LV-Data.AWS CLI.lvclass"/>
-		<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="../LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
+		<Item Name="LV-Data.lvclass" Type="LVClass" URL="../../src/LV-Data/LV-Data.lvclass"/>
+		<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="../../src/LV-Data.DAT/LV-Data.DAT.lvclass"/>
+		<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="../../src/LV-Data.ITX/LV-Data.ITX.lvclass"/>
+		<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../../src/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
+		<Item Name="LV-Data.S3.lvclass" Type="LVClass" URL="../../src/LV-Data.S3/LV-Data.S3.lvclass"/>
+		<Item Name="LV-Data.AWS CLI.lvclass" Type="LVClass" URL="../../src/LV-Data.AWS CLI/LV-Data.AWS CLI.lvclass"/>
+		<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="../../src/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
