@@ -25,9 +25,6 @@
 		<Item Name="Macros" Type="Folder">
 			<Item Name="Conversion.lvclass" Type="LVClass" URL="../src/Macros/Conversion.lvclass"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Read DAT and TDMS.vi" Type="VI" URL="../tests/Test-LV-Data/Test Read DAT and TDMS.vi"/>
-		</Item>
 		<Item Name="LV-Data.lvclass" Type="LVClass" URL="../src/LV-Data/LV-Data.lvclass"/>
 		<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="../src/LV-Data.DAT/LV-Data.DAT.lvclass"/>
 		<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="../src/LV-Data.ITX/LV-Data.ITX.lvclass"/>
