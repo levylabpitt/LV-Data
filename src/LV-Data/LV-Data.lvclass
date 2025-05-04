@@ -409,17 +409,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 	</Item>
-	<Item Name="Tests" Type="Folder">
-		<Item Name="Test Conversion.vi" Type="VI" URL="../Tests/Test Conversion.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
-		</Item>
-	</Item>
 	<Item Name="Data Write.vi" Type="VI" URL="../Data Write.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(,!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-P````])='&amp;U;#"P&gt;81!!&amp;%!]1!!!!!!!!!#$UR7,52B&gt;'%O&lt;(:D&lt;'&amp;T=R.';7RF)&amp;2Z='5N,76O&gt;7UO9X2M!#6!&amp;A!%!U2"6!.*6&amp;A%6%2.5Q*731!*2GFM:3"5?8"F!".!!Q!-18"Q:7ZE)%FO:'6Y!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]&amp;4G^U:8-!$%!Q`````Q.L:8E!#E"4"8:B&lt;(6F!%A!]1!!!!!!!!!#$UR7,52B&gt;'%O&lt;(:D&lt;'&amp;T=R&gt;%;7.U;7^O98*Z,3VD&lt;(6T&gt;'6S,G.U&lt;!!91&amp;!!!A!+!!M*;W6Z,8:B&lt;(6F!"Z!1!!"`````Q!-%52B&gt;'%A+%2J9X2J&lt;WZB=HEJ!!Z!-P````]%='&amp;U;!!!6!$Q!!Q!!Q!%!!1!"1!'!!1!"Q!%!!A!#1!.!!Y$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!%!!!!!!!!!!)!!!!!!!!!!I!!!))!!!#%!!!!")!!!!!!1!0!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
