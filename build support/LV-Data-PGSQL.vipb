@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2025-07-22 16:07:00" Creator="Patrick Irvin" Comments="" ID="d90550e87e5edbc241818eacae7bd5f3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2025-07-22 16:07:40" Creator="Patrick Irvin" Comments="" ID="c8e4e87d6e3888c73898bc454a66a4dd">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtdatpgsql</Package_File_Name>
-    <Library_Version>3.10.0.9</Library_Version>
+    <Library_Version>3.10.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.10.0]
-#121 use microsecon precision when converting timestamp to string</Release_Notes>
+      <Release_Notes>[3.10.1]
+#121 use microsecond precision when converting timestamp to string</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
