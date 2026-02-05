@@ -20,6 +20,7 @@
 			<Item Name="DSC TSV to PGSQL Choose Column Dialog.vi" Type="VI" URL="../Test-LV-Data.PGSQL/DSC TSV to PGSQL Choose Column Dialog.vi"/>
 			<Item Name="DSC TSV to PGSQL Record Processed.vi" Type="VI" URL="../Test-LV-Data.PGSQL/DSC TSV to PGSQL Record Processed.vi"/>
 			<Item Name="DSC TSV to PGSQL.vi" Type="VI" URL="../Test-LV-Data.PGSQL/DSC TSV to PGSQL.vi"/>
+			<Item Name="PQ Test Invalid Connection.vi" Type="VI" URL="../Test-LV-Data.PGSQL/PQ Test Invalid Connection.vi"/>
 			<Item Name="PQ Test Get Datatype.vi" Type="VI" URL="../Test-LV-Data.PGSQL/PQ Test Get Datatype.vi"/>
 			<Item Name="PQ Test Invalid User.vi" Type="VI" URL="../Test-LV-Data.PGSQL/PQ Test Invalid User.vi"/>
 			<Item Name="PQ Test List Tables.vi" Type="VI" URL="../Test-LV-Data.PGSQL/PQ Test List Tables.vi"/>
@@ -34,7 +35,6 @@
 			<Item Name="Test Switch Tables.vi" Type="VI" URL="../Test-LV-Data.PGSQL/Test Switch Tables.vi"/>
 			<Item Name="Test Write and Read Data.vi" Type="VI" URL="../Test-LV-Data.PGSQL/Test Write and Read Data.vi"/>
 		</Item>
-		<Item Name="PQ Test Invalid Connection.vi" Type="VI" URL="../Test-LV-Data.PGSQL/PQ Test Invalid Connection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>

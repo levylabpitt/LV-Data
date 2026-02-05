@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-02-02 14:27:15" Creator="Patrick Irvin" Comments="" ID="c33ccbcad9aa34983abc4a72762c3c80">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-02-05 08:08:18" Creator="Patrick Irvin" Comments="" ID="9cf04f76e6526b4f20fccb64093ebdd5">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtdatpgsql</Package_File_Name>
-    <Library_Version>3.11.0.14</Library_Version>
+    <Library_Version>3.12.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,9 +35,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.11.0]
-#128 Validate connection befroe executing SQL queries (and invalidate/reconnect)
-- Store top level caller name in connections.ini</Release_Notes>
+      <Release_Notes>[3.12.0]
+#129 Improve management of connection strings</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -341,7 +340,7 @@
         <Path>..\src\LV-Data.PG\unused</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D7AAE5C94032DF722F709A6B4EACA1D</GUID>
+      <GUID>6BB6A50C84E353FA44FC2939FF42E6D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -418,7 +417,7 @@
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E513DE4D66129BE2D973A717B8A0F96</GUID>
+      <GUID>5FE85B4A11C591409EF0FFF637B0E204</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +844,7 @@
         <Path>..\src\LV-Data.PG\API\Check existence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D416475C47CE9B34B155AAB5DC72CC5D</GUID>
+      <GUID>DA421C17DA5B09CE3F2828393D82DCC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -922,7 +921,7 @@
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D7B4E7DA49AEC91E02AAAD44905801F</GUID>
+      <GUID>87FDBA20E71B9139A048380987A7BBA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1013,7 +1012,7 @@
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7FCD7034920EB2236E2BCBC019709A6</GUID>
+      <GUID>8B6A0E72155FEEEA73ECD46807899F06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1132,7 +1131,7 @@
         <Path>..\src\LV-Data.PG\PGPASS\PGPASS.ConnectionMgr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D111C8A59D436D2F137968200DCAB0F5</GUID>
+      <GUID>68D1C38A425E7CDDE1CACF9A32FC28DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1195,7 +1194,7 @@
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9C3E15B89944124FD3ECD3402CA2AFE</GUID>
+      <GUID>3DF9B66E1104116418273ABC0A25C56C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1354,20 +1353,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\LV-Data.PG\Private\SQL Time to Timestamp.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Validate Connection (with Reconnect).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\LV-Data.PG\Private\Validate Connection (with Reconnect).vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1706,7 +1691,49 @@
         <Path>..\src\LV-Data.PG\Private\Get Data Type from Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0890C774C1C64E3A74790698B547938</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Connections_FGV.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>9</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\Private\Connections_FGV.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Validate Connection.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>11</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\Private\Validate Connection.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Validate Connection (with Reconnect).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>11</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\LV-Data.PG\Private\Validate Connection (with Reconnect).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>71D68B825F265BC4B42C5A4C5DAC77D0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
