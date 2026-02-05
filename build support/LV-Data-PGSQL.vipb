@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-02-05 17:05:58" Creator="Patrick Irvin" Comments="" ID="4f22ce8f96f876aa928deb2565ec4ded">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-02-05 17:13:48" Creator="Patrick Irvin" Comments="" ID="95b57fc23e64766bd7b81177eee40b36">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtdatpgsql</Package_File_Name>
-    <Library_Version>3.12.1.15</Library_Version>
+    <Library_Version>3.12.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.12.1]
+      <Release_Notes>[3.12.0]
 #129 Improve management of connection strings</Release_Notes>
     </Description>
     <Destinations>
@@ -340,7 +340,7 @@
         <Path>..\src\LV-Data.PG\unused</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DB4034BE563AFA5ACDAA5A846D8F248</GUID>
+      <GUID>3E370C6AA03EBE912172EF56EABD997B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -417,7 +417,7 @@
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>840C406682892B43C039B66FD0015C59</GUID>
+      <GUID>7BC2772492AF1D02C039CD8FA607CEDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -844,7 +844,7 @@
         <Path>..\src\LV-Data.PG\API\Check existence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>601CBBF36496D095698EB05DB8D5ABCF</GUID>
+      <GUID>241B43C0021C4B8836412EF14500556B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -921,7 +921,7 @@
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C56BB1A1A0AF9D933387AAA8C0BBD0CF</GUID>
+      <GUID>E35459112D061841BABFACC97DB7474F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1012,7 +1012,7 @@
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>785D196F7DD44B6B68668CB0B924C1E4</GUID>
+      <GUID>3321D709F9A06CFB244EB97475E22A13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1131,7 +1131,7 @@
         <Path>..\src\LV-Data.PG\PGPASS\PGPASS.ConnectionMgr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FECB07208388B5633C9A52D3F9BC1E0</GUID>
+      <GUID>D2756377D86EDA5049C2D5947800EC83</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1194,7 +1194,7 @@
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B87E070BF515194CC8FE83E41BCF4C9</GUID>
+      <GUID>714BFB31EC827AA80C623E8757A63351</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1733,7 +1733,7 @@
         <Path>..\src\LV-Data.PG\Private\Validate Connection (with Reconnect).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16D383A176AEC8AEB8F6E49D86226FC8</GUID>
+      <GUID>24676C48E156E0ABDBEBDF27622CC1C6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
