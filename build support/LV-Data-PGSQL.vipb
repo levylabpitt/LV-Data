@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-05-18 13:32:32" Creator="Patrick Irvin" Comments="" ID="c9dc0e2ebdd1a49f7c00ecd694ff3218">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-28 13:12:43" Modified_Date="2026-05-20 17:00:52" Creator="Patrick Irvin" Comments="" ID="f771a27a4e122b2340ba8e306d8a0ee7">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_lvtdatpgsql</Package_File_Name>
-    <Library_Version>3.12.2.17</Library_Version>
+    <Library_Version>3.12.3.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager>Patrick Irvin</Packager>
       <URL/>
-      <Release_Notes>[3.12.2]
-#132 Fix conversion postgres timestamp to labview timestamp</Release_Notes>
+      <Release_Notes>[3.12.3]
+#133: Change INSERTs to NOT query time column format</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -340,7 +340,7 @@
         <Path>..\src\LV-Data.PG\unused</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>270FFA5288CECF1FD5D4BD6A4A7AE76C</GUID>
+      <GUID>8D4DFC137BD90A995C896C68C07E062A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -417,7 +417,7 @@
         <Path>..\src\LV-Data.PG\admin\Get Paths Array UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F8FB247C391DDA0062FB0602F274300</GUID>
+      <GUID>61B59AFD1DAD54955ACAE815A0F5AB53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +858,7 @@
         <Path>..\src\LV-Data.PG\API\Check existence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>919E2EA35B2E09A1EF594A879B4A1AF8</GUID>
+      <GUID>8167396F878A0066DCBB0B93C7DEDA9D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -935,7 +935,7 @@
         <Path>..\src\LV-Data.PG\Example\Multi-Table Insert.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C1FEA635470E691EA4C3F63314C0287</GUID>
+      <GUID>EBC61AFB9A43C1C6DA97E27D1ED5FF3C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1026,7 +1026,7 @@
         <Path>..\src\LV-Data.PG\unused\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BBD143A656B606481A2BFE82A992436</GUID>
+      <GUID>A78DD32DB62460434FAE7659C7BAB379</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1145,7 +1145,7 @@
         <Path>..\src\LV-Data.PG\PGPASS\PGPASS.ConnectionMgr.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27E80110C98026655BBD8CFF45454678</GUID>
+      <GUID>3DBA4353BF8CC817C0AABED4B1BD8C3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1208,7 +1208,7 @@
         <Path>..\src\LV-Data.PG\dev\Test Move Columns.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE0380AA3905DC16DC983B24EB46220E</GUID>
+      <GUID>1E3AD487F212D15BA4C5AC075600FBF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1747,7 +1747,7 @@
         <Path>..\src\LV-Data.PG\Private\Validate Connection (with Reconnect).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A919376F1FF1FC78B4309C97A0C45542</GUID>
+      <GUID>D71B137BED0DB0D86082647B9F6993B4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
